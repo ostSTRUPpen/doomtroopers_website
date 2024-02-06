@@ -1,5 +1,5 @@
 <script lang="ts">
-    import AboutMe from "$lib/AboutMe.svelte";
+	import AboutMe from '$lib/elements/AboutMe.svelte';
 </script>
 
-<AboutMe displayAboutMe={true}/>
+<AboutMe displayAboutMe={true} />
