@@ -20,3 +20,34 @@ https://fantinel.dev/blog-development-sveltekit
 
 https://github.com/estruyf/vscode-front-matter
 https://frontmatter.codes/
+
+
+
+
+# Plán
+
+- Basic statická stránka
+Viz web_layout.jpg
+
+routes/gallery/trainings (nebo jiné, ale prostě "bojové akce, tréninky, propagační akce")/[page_name]
+
+Plus nástěnka, ale to ještě moc nevím, jak bude
+
+
+JSON s daty:
+
+{
+    {
+        page_name: "lizzard_x" //   Kvůli URL NO DESIGN!
+        link_text: "Lizzard X" //   Kvůli odkazům v tabulce/bočním panelu
+        type: "training" // (nebo jiné, ale prostě "bojové akce, tréninky, propagační akce")  NO DESIGN!   // Kvůli rozřazení do typů (asi nebo to udělám jinak, ale nechci ručně)
+        date: "21.2.2020-24.2.2020"
+        year: "2024" // Kvůli automatickému zobrazení/skrytí odkazů v bočním panelu, dle roku NO DESIGN!
+        title: "Operace Lizzard X" // + ", {date}
+        main_text: "Střelnice pro děti z příměstského tábora <b>Mladých strážníků</b> <i>MP HB</i>. Ukázka airsoftu s možností si zastřílet."
+        photos: Buď odkaz na celou složku ("api/data/images/${page_name}") nebo odkazy na jednotlivé obrázky, s možností dělat popisky a tak... odkaz na složku mi přijde lepší, ale záleží na hostingu obrázků...
+    }
+
+}
+
+Který to následně vykreslí (podle page_name -> pokud nenajde, tak 404)
