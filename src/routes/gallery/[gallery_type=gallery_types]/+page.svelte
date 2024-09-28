@@ -1,30 +1,42 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import { gallery_pages } from '$lib/data/static_data';
-	const data = gallery_pages.filter((p) => p.type === $page.params.gallery_type);
+	export let data;
+
+	let { matchingPages } = data;
+
+	$: ({ matchingPages } = data);
 </script>
 
+<!-- Výraznější formátování pro akce z aktuálního roku?-->
 {#if data}
 	<table>
 		<thead>
 			<tr>
 				<th> Název </th>
+				{#if $page.params.gallery_type === 'all'}
+					<th>Typ</th>
+				{/if}
 				<th> Datum </th>
 			</tr>
 		</thead>
 		<tbody>
-			{#each data as d}
-				<a href="{base}/"
-					><tr>
+			{#each matchingPages as d}
+				<tr>
+					<!-- <a href="/gallery/{d.type}/{d.page_name}"> -->
+					<td>
+						<a href="/gallery/{d.type}/{d.page_name}">{d.title}</a>
+					</td>
+					{#if $page.params.gallery_type === 'all'}
 						<td>
-							{d.title}
+							<a href="/gallery/{d.type}">{d.type}</a>
 						</td>
-						<td>
-							{d.date}
-						</td>
-					</tr>
-				</a>
+					{/if}
+					<td>
+						<!-- TODO not ideal ale tvl co s tím mám asi dělat, kazí to formátování tabulky...-->
+						<a href="/gallery/{d.type}/{d.page_name}">{d.display_date}</a>
+					</td>
+					<!-- </a> -->
+				</tr>
 			{/each}
 		</tbody>
 	</table>
