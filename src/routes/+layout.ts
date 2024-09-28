@@ -1,3 +1,4 @@
 export const prerender = true;
 
-export const trailingSlash = 'always';
+// TODO idk proč to tu je...
+//export const trailingSlash = 'always';
