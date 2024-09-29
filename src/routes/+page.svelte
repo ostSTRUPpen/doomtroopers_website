@@ -1,8 +1,5 @@
 <script lang="ts">
-	import AboutMe from '$lib/elements/AboutMe.svelte';
-	
-	// TODO dodělat error.svelte
-	// TODO dodělat všechny chybějící stránky (typu error, atd...)
+	// TODO dodělat úvodní stránku
 </script>
 
-<AboutMe displayAboutMe={true} />
+Ahoj

@@ -1,5 +1,3 @@
-// TODO předělat na server side soubor. Bude potřeba změnit fungování odkazů a přidat server side soubory pro dané stránky/layout
-// TODO přidat nastavení na server pro caching odpovědí
 // Zprovoznit odkazy
 // Projít TODOčka
 

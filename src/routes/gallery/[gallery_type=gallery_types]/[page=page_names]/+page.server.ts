@@ -24,7 +24,10 @@ import {
     return correctImages;
   }
 
-export const load = async ({ params }) => {
+export const load = async ({ setHeaders,params }) => {
+  setHeaders({
+		'Cache-Control': `max-age=${360}, s-maxage=${360}`
+	});
   const pageName = params.page;
 
   const data = gallery_pages.filter(p => p.page_name === pageName)[0]

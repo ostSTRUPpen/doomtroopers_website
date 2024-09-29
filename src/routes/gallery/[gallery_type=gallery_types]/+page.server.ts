@@ -1,6 +1,9 @@
 import { gallery_pages } from '$lib/data/gallery_texts';
 
-export const load = (async ({ params }) => {
+export const load = (async ({ setHeaders, params }) => {
+    setHeaders({
+		'Cache-Control': `max-age=${60}, s-maxage=${60}`
+	});
     const galleryType = params.gallery_type;
     
 	let matchingPages = gallery_pages.filter((p) => p.type === galleryType).sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
