@@ -2,10 +2,11 @@
 const config = {
 	content: ['./src/routes/**/*.{svelte,js,ts}', './src/lib/elements/**/*.{svelte,js,ts}'],
 	plugins: [require('daisyui')],
-	/*daisyui: { //TODO
-		themes: [
+	daisyui: {
+		// TODO theme
+		themes:[
 			{
-				ghb_light: {
+				doomtroopers_light: {
 					primary: '#fd8549',
 
 					secondary: '#2f3c4c',
@@ -24,28 +25,9 @@ const config = {
 
 					error: '#e14c7e'
 				},
-				ghb_dark: {
-					primary: '#fd8549',
-
-					secondary: '#f6fdfe',
-
-					accent: '#22d3ee',
-
-					neutral: '#312235',
-
-					'base-100': '#2f3c4c',
-
-					info: '#0284c7',
-
-					success: '#65a30d',
-
-					warning: '#d97706',
-
-					error: '#be123c'
-				}
-			}
+			},
 		]
-	}*/
+	}
 
 };
 

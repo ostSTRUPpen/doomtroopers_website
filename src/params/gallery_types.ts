@@ -1,5 +1,7 @@
-const gallery_types_names = ["akce", "treninky", "propagace", "all"]
+import { gallery_types_names } from "$lib/data/static_data"
+
+const gallery_types_names_extended = gallery_types_names.concat("all")
 
 export function match(param: string) {
-	return gallery_types_names.includes(param)
+	return gallery_types_names_extended .includes(param)
 }

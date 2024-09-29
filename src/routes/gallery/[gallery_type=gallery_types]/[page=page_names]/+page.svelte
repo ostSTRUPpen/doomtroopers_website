@@ -5,23 +5,19 @@
 
     let {pageData, pageImages} = data
     $:({pageData, pageImages} = data)
-    
-/**TODO
- * Lepší umístění na stránce? Nevím vypadá trochu divně
-*/
-
 </script>
 
 {#if pageData}
 <div class="max-w-7xl ml-5">
-    <h2 class="text-3xl text-center pb-5">{@html pageData.title}, ({@html pageData.display_date})</h2>
-    <article>{@html pageData.main_text}</article>
-    <!-- TODO líp graficky oddělit galerii, možná výpis počtu obrázků? idk, ale něco by to chtělo-->
+    <h2 class="text-3xl text-center pb-5 font-extrabold text-primary ">{@html pageData.title}, ({@html pageData.display_date})</h2>
+    <article class="mb-4 bg-base-200 p-4 rounded-box">{@html pageData.main_text}</article>
     {#if pageImages.length > 0}
         <Gallery imageLinks={pageImages} />
     {:else}
-        <!-- TODO lepší design-->
-        <p class="text-error">V galerii nebyly nalezeny žádné fotografie!</p>
+         <div class="bg-base-200 p-4 rounded-box content-between text-center">
+            <p class="text-error sm:font-bold sm:text-xl">V galerii nebyly nalezeny žádné fotografie!</p>
+         </div>
+        
     {/if}
 </div>
 {/if}

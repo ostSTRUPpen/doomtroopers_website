@@ -1,12 +1,20 @@
 <script lang="ts">
-	import '../app.pcss';
+	import { gallery_types_names, getGalleryTypeDisplayName } from '$lib/data/static_data';
+import '../app.pcss';
 
 	export let data;
 
-	let { currentYearPages_akce, currentYearPages_treninky, currentYearPages_propagace } = data;
+	let { sortedCurrentYearPages } = data;
 
-	$: ({ currentYearPages_akce, currentYearPages_treninky, currentYearPages_propagace } = data);
+	$: ({ sortedCurrentYearPages } = data);
+
+	function getCurrentYearPagesByType(type: string) {
+		return sortedCurrentYearPages[type as keyof typeof sortedCurrentYearPages];
+		
+	}
 </script>
+
+<!-- <div class="bg-red-300 sm:bg-green-300 md:bg-blue-300 lg:bg-black xl:bg-orange-500 2xl:bg-yellow-300 3xl:bg-pink-300">Size test</div>-->
 
 <div class="drawer lg:drawer-open">
 	<input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
@@ -27,51 +35,39 @@
 				></path>
 			</svg>
 		</label>
-		<slot />
+		<main class="my-5">
+			<slot />
+		</main>
 	</div>
 	<div class="drawer-side">
 		<label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
 		<div class="menu min-h-full w-80 bg-base-200 p-4 text-base-content">
 			<!-- Sidebar content here -->
-			<div class="float-left mx-10">
-				<img src="/favicon.png" alt="Logo" />
-				<div class="py-2">
-					<ul>
-						<li>KVH Doomtroopers, z.s.</li>
-						<li>mail</li>
-						<li>facebook</li>
+			<div class="float-left ml-3 mr-10">
+				<div class="pt-2 pb-5" >
+					<img src="/favicon.png" alt="Logo" />
+					<ul class="list-none bg-base-300 rounded-md">
+						<li class="ml-2 text-lg">KVH Doomtroopers, z.s.</li>
+						<li class="-inset-x-1 list-item -mb-1"><a href="mailto:info@doomtroopers.cz">info@doomtroopers.cz</a></li>
+						<li class="-inset-x-1 list-item"><a href="https://www.facebook.com/KvhAsDoomtroopers/" target="_blank">Fb: KvhAsDoomtroopers</a></li>
 					</ul>
 				</div>
 				<div>
-					<ul>
-						<li><a href="/">Domovská stránka</a></li>
-						<li><a href="/dashboard">Nástěnka</a></li>
-						<li><a href="/gallery">Galerie</a></li>
-						<ul class="ms-10">
-							<li><a href="/gallery/akce">Akce</a></li>
-							<ul class="ms-10">
-								{#each currentYearPages_akce as galleryPage}
-									<li>
-										<a href="/gallery/akce/{galleryPage.page_name}">{galleryPage.link_text}</a>
-									</li>
-								{/each}
-							</ul>
-							<li><a href="/gallery/treninky">Tréninky</a></li>
-							<ul class="ms-10">
-								{#each currentYearPages_treninky as galleryPage}
-									<li>
-										<a href="/gallery/treninky/{galleryPage.page_name}">{galleryPage.link_text}</a>
-									</li>
-								{/each}
-							</ul>
-							<li><a href="/gallery/propagace">Propagační akce</a></li>
-							<ul class="ms-10">
-								{#each currentYearPages_propagace as galleryPage}
-									<li>
-										<a href="/gallery/propagace/{galleryPage.page_name}">{galleryPage.link_text}</a>
-									</li>
-								{/each}
-							</ul>
+					<ul class="bg-base-300 rounded-lg pb-5">
+						<li><a href="/" class="-mb-1">Domovská stránka</a></li>
+						<li><a href="/dashboard" class="-mb-1">Nástěnka</a></li>
+						<li><a href="/gallery" class="-mb-0.5">Galerie</a></li>
+						<ul class="ms-5">
+							{#each gallery_types_names as gallery_types_name}
+								<li><a href="/gallery/{gallery_types_name}" class="-mb-1 mt-0.5">{getGalleryTypeDisplayName(gallery_types_name)}</a></li>
+								<ul class="ms-5">
+									{#each getCurrentYearPagesByType(gallery_types_name) as galleryPage}
+										<li>
+											<a class="-mb-1" href="/gallery/{gallery_types_name}/{galleryPage.page_name}">{galleryPage.link_text}</a>
+										</li>
+									{/each}
+								</ul>
+							{/each}
 						</ul>
 					</ul>
 				</div>
@@ -79,55 +75,3 @@
 		</div>
 	</div>
 </div>
-
-<!-- <div class="flow-root">
-	<div class="float-left mx-10">
-        <img src="/favicon.png" alt="Logo">
-        <div class="py-2">
-            <ul>
-                <li>KVH Doomtroopers, z.s.</li>
-                <li>mail</li>
-                <li>facebook</li>
-            </ul>
-        </div>
-		<nav>
-            <ul>
-                <li><a href="/">Domovská stránka</a></li>
-                <li>Nástěnka</li>
-                <li><a href="/gallery">Galerie</a></li>
-                    <ul class="px-2">
-                        <li><a href="/gallery/akce">Akce</a></li>
-                        <ul class="px-2">
-                            {#each gallery_pages as galleryPage}
-                                {#if galleryPage.type === "akce" && galleryPage.year === currentYear.toString()}
-                                    <li><a href="/gallery/akce/{galleryPage.page_name}">{galleryPage.link_text}</a></li>
-                                {/if}
-                                
-                            {/each}
-                        </ul>
-                        <li><a href="/gallery/treninky">Tréninky</a></li>
-                        <ul class="px-2">
-                            {#each gallery_pages as galleryPage}
-                                {#if galleryPage.type === "treninky" && galleryPage.year === currentYear.toString()}
-                                    <li><a href="/gallery/treninky/{galleryPage.page_name}">{galleryPage.link_text}</a></li>
-                                {/if}
-                                
-                            {/each}
-                        </ul>
-                        <li><a href="/gallery/propagace">Propagační akce</a></li>
-                        <ul class="px-2">
-                            {#each gallery_pages as galleryPage}
-                                {#if galleryPage.type === "propagace" && galleryPage.year === currentYear.toString()}
-                                    <li><a href="/gallery/propagace/{galleryPage.page_name}">{galleryPage.link_text}</a></li>
-                                {/if}
-                                
-                            {/each}
-                        </ul>
-                    </ul>
-            </ul>
-        </nav>
-	</div>
-	<div class="float-start">
-        <slot />
-    </div>
-</div> -->

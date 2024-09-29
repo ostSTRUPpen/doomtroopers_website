@@ -6,7 +6,7 @@ export const load = (async () => {
 
 	const currentYearPages = gallery_pages.filter((p) => p.year === currentYear);
 
-    let currentYearPages_akce = [], currentYearPages_propagace = [] , currentYearPages_treninky = [];
+    const currentYearPages_akce = [], currentYearPages_propagace = [] , currentYearPages_treninky = [];
 
     for(let page of currentYearPages){
         if(page.type === "akce") currentYearPages_akce.push(page)
@@ -15,5 +15,11 @@ export const load = (async () => {
         else console.error(page)
     }
 
-    return {currentYearPages_akce, currentYearPages_propagace, currentYearPages_treninky};
+    const sortedCurrentYearPages = {
+        akce: currentYearPages_akce,
+        propagace: currentYearPages_propagace,
+        treninky: currentYearPages_treninky
+    }
+
+    return {sortedCurrentYearPages};
 })
