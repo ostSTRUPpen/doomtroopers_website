@@ -445,7 +445,7 @@ Sobotní noční akce jsme se neúčastnili.
     {
         page_name: "pochod_2022",
         link_text: "Zimní pochod",
-        type: "treninky ",
+        type: "treninky",
         display_date: "5.-6. 2. 2022",
         day: 5,
         month: 2,
