@@ -3,7 +3,7 @@ export const gallery_types_names = ["akce", "treninky", "propagace"]
 const gallery_types_display_names = {
     akce: "Akce",
     propagace: "Propagační akce",
-    treninky: "Trénink"
+    treninky: "Tréninky"
 }
 
 export function getGalleryTypeDisplayName(type: string) {

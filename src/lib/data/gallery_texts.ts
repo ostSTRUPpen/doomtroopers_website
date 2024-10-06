@@ -35,7 +35,7 @@
 
 /* Nahrávání obrázků
 
-    1. page_name
+    1. page_name (POZOR na mezery!)
     2. Home/Storage Accounts/ dtimagestorage | Storage Browser / dt-images
     3. + Add Directory , name: page_name
     4. Ok
@@ -44,22 +44,6 @@
 
 
 */
-
-/** SUS galerie
- * strilecka_30_5_2021 - ve složce nejsou obrázky...
- * strilecka_31_7_21 - ve složce nejsou obrázky...
- * lizzard_xii - víc obrázků na stránkách než ve složce... skoro trojnásobek (zatím jsem nic nenahrál na web)
- * kandahar_v - ve složce nejsou obrázky...
- * invaze_ii - ve složce nejsou obrázky...
- * bojova_linie_kadlecak_2 - ve složce nejsou obrázky...
- * trenink_2021 - ve složce nejsou obrázky...
- * krouzek_mp_hb_2022 - ve složce nejsou obrázky...
- * krouzek_mp_hb_2023 - ve složce nejsou obrázky...
- * tabor_mh_hb_2023 - ve složce nejsou obrázky...
- * motorsvet_2023 - ve složce nejsou obrázky...
- * bojova_linie_kadlecak_3 - ve složce nejsou obrázky...
- */
-
 
 // Možní jednou bude potřeba předělat, až bude fakt tuna textů... idk
 
@@ -132,7 +116,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         `
     },
     {
-        page_name: "strilecka_31_7_21",
+        page_name: "strilecka_31_7_2021",
         link_text: "Střílečka 31. 7. 2021",
         type: "akce",
         display_date: "31. 7. 2021",
@@ -420,7 +404,7 @@ Sobotní noční akce jsme se neúčastnili.
     },
     {
         page_name: "pochod_2021",
-        link_text: "Pochod",
+        link_text: "Pochod 2021",
         type: "treninky",
         display_date: "9. 4. 2021",
         day: 9,
@@ -432,8 +416,8 @@ Sobotní noční akce jsme se neúčastnili.
         `
     },
     {
-        page_name: "trenink_2021",
-        link_text: "Trénink",
+        page_name: "trenink_30_5_2021",
+        link_text: "Trénink 30. 5. 2021",
         type: "treninky",
         display_date: "30. 5. 2021",
         day: 30,
@@ -444,7 +428,7 @@ Sobotní noční akce jsme se neúčastnili.
     },
     {
         page_name: "pochod_2022",
-        link_text: "Zimní pochod",
+        link_text: "Zimní pochod 2022",
         type: "treninky",
         display_date: "5.-6. 2. 2022",
         day: 5,
@@ -487,7 +471,7 @@ Sérum jsme v přátelském pokecu s domobranou stihli vypít ještě na Kótě 
         `
     },
     {
-        page_name: "tabor_mh_hb_2023",
+        page_name: "tabor_mp_hb_2023",
         link_text: "Tábor MP HB",
         type: "propagace",
         display_date: "5. 7. 2023",
@@ -553,4 +537,17 @@ Sérum jsme v přátelském pokecu s domobranou stihli vypít ještě na Kótě 
 </p>
         `
     },
+    {
+      page_name: "tabor_mp_hb_2022",
+      link_text: "Tábor MP HB",
+      type: "propagace",
+      display_date: "4. 7. 2022",
+      day: 4,
+      month: 7,
+      year: 2022,
+      title: "Tábor MP HB",
+      main_text: `
+      <p>Střelnice pro děti z příměstského tábora Mladých strážníků MP HB. Ukázka airsoftu s možností si zastřílet.</p>
+      `
+  },
 ]
