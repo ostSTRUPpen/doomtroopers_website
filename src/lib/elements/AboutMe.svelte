@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let displayAboutMe: boolean = true
+    export let displayAboutMe: boolean = false
 </script>
 
 {#if displayAboutMe}

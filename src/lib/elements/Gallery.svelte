@@ -4,10 +4,11 @@
 	export let imageLinks: string[];
 	let imageDisplay: HTMLDialogElement;
 
-	let currentImageIndex = 0;
+	let currentImageIndex: number = 0;
+	let imageLinksLength: number = 0;
 	$: imageLinksLength = imageLinks.length
 
-	function displayImageModal(selectedImage: string) {
+	function displayImageModal(selectedImage: string):void {
 		currentImageIndex = imageLinks.indexOf(selectedImage);
 		imageDisplay.showModal();
 	}

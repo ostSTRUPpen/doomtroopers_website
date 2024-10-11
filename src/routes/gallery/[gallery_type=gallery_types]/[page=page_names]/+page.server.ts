@@ -11,7 +11,7 @@ import {
   const blobServiceClient = BlobServiceClient.fromConnectionString(AZURE_CONNECTION_STRING)
     
 
-  async function getCorrectImageNames(pageName: string) {
+  async function getCorrectImageNames(pageName: string): Promise<string[]> {
     const containerClient = blobServiceClient.getContainerClient('dt-images');
     const correctImages = []
     let blobs = await containerClient.listBlobsFlat();

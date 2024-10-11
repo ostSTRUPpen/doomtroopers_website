@@ -7,7 +7,7 @@
 
 	$: ({ matchingPages, currentYear } = data);
 
-	function isFromCurrentYear(year: number) {
+	function isFromCurrentYear(year: number): string {
 		return year === currentYear ? 'bg-accent bg-opacity-25' : '';
 	}
 

@@ -1,4 +1,4 @@
-export const gallery_types_names = ["akce", "treninky", "propagace"]
+export const gallery_types_names: string[]= ["akce", "treninky", "propagace"]
 
 const gallery_types_display_names = {
     akce: "Akce",
@@ -6,11 +6,11 @@ const gallery_types_display_names = {
     treninky: "Tréninky"
 }
 
-export function getGalleryTypeDisplayName(type: string) {
+export function getGalleryTypeDisplayName(type: string): string {
     return gallery_types_display_names[type as keyof typeof gallery_types_display_names]
 }
 
-export function getGalleryHeadersByType(type: string) {
+export function getGalleryHeadersByType(type: string): string {
     switch (type) {
         case "akce":
             return "Fotografie z bojových akcí"

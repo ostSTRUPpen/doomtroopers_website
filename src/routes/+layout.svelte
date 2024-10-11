@@ -10,7 +10,6 @@ import '../app.pcss';
 
 	function getCurrentYearPagesByType(type: string) {
 		return sortedCurrentYearPages[type as keyof typeof sortedCurrentYearPages];
-		
 	}
 </script>
 
@@ -45,7 +44,7 @@ import '../app.pcss';
 			<!-- Sidebar content here -->
 			<div class="float-left ml-3 mr-10">
 				<div class="pt-2 pb-5" >
-					<img src="/doomtroopers.png" alt="Logo" />
+					<a href="/"><img src="/doomtroopers.png" alt="Logo" /></a>
 					<ul class="list-none bg-base-300 rounded-md">
 						<li class="ml-2 text-lg">KVH Doomtroopers, z.s.</li>
 						<li class="-inset-x-1 list-item -mb-1"><a href="mailto:info@doomtroopers.cz">info@doomtroopers.cz</a></li>
