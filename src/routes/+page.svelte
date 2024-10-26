@@ -13,6 +13,7 @@
 
 	Po přesunu z free tieru přidat HTTPS přesun dat (Přes "Security+networking", "Front Door and CDN")nastavit Secure transfer required (přes "Settings" "Configuration"
 
+	// TODO možná by nebylo od věci přidat možnost zobrazit všechny akce (/all) (ona už existuje, ale není oficiální - dá se vyvolat jen ručně úpravou URL)
 	*/
 </script>
 
