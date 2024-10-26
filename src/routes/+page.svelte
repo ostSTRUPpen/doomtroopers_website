@@ -16,6 +16,8 @@
 	// TODO možná by nebylo od věci přidat možnost zobrazit všechny akce (/all) (ona už existuje, ale není oficiální - dá se vyvolat jen ručně úpravou URL)
 	
 	// TODO vypnout možnost vybírat text a pravé tlačítko?
+
+	// TODO používat neoddělitelné mezery na nadpisy (například na formát datum a tak -> na mobilu to vypadá blbě)
 	
 	*/
 </script>
