@@ -47,7 +47,7 @@
 
 // Možní jednou bude potřeba předělat, až bude fakt tuna textů... idk
 
-export const gallery_pages: Array<{page_name: string, link_text: string, type: string, display_date: string, day: number, month: number, year: number, title: string, main_text: string}> = [
+export const gallery_pages: Array<GalleryTextsDataValue> = [
     {
         page_name: "lizzard_xi",
         link_text: "Lizzard XI",

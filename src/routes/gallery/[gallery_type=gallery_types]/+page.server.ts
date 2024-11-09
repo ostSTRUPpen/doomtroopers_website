@@ -10,7 +10,7 @@ export const load = (async ({ setHeaders, params }) => {
     
 	let matchingPages = gallery_pages.filter((p) => p.type === galleryType).sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
 
-    if(matchingPages.length === 0 && galleryType === "all") matchingPages = gallery_pages.sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
+    if(galleryType === "all") matchingPages = gallery_pages.sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
 
     return {matchingPages, currentYear};
 })
