@@ -21,6 +21,7 @@
 
 	// TODO udělat zobrazení pro nadcházející, plánované a proběhlé akce - aby se zobrazili v nástěnce jen pokud u sebe mají nějaký záznam (zase array objektů jako je pro galerii)
 	
+	// TODO rozdělit prod a dev branch
 	*/
 </script>
 
