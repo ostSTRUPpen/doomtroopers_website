@@ -18,6 +18,8 @@
 	// TODO vypnout možnost vybírat text a pravé tlačítko?
 
 	// TODO používat neoddělitelné mezery na nadpisy (například na formát datum a tak -> na mobilu to vypadá blbě)
+
+	// TODO udělat zobrazení pro nadcházející, plánované a proběhlé akce - aby se zobrazili v nástěnce jen pokud u sebe mají nějaký záznam (zase array objektů jako je pro galerii)
 	
 	*/
 </script>
