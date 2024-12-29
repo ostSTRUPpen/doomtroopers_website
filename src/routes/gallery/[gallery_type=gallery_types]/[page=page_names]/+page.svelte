@@ -9,7 +9,7 @@
 
 {#if pageData}
     <div class="max-w-7xl ml-5">
-        <h2 class="text-3xl text-center pb-5 font-extrabold text-primary ">{@html pageData.title}, ({@html pageData.display_date})</h2>
+        <h2 class="text-3xl text-center pb-5 font-extrabold text-primary ">{@html pageData.title}, ({@html pageData.display_date.replaceAll(" ", "&nbsp;")})</h2>
         {#if pageData.main_text}
             <article class="mb-4 bg-base-200 p-4 rounded-box">{@html pageData.main_text}</article>
         {/if}
