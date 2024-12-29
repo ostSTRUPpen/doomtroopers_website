@@ -25,6 +25,15 @@ declare global {
         title: string,
         main_text: string
 	}
+	
+	type dashboardTextsData = {
+		heading: string,
+        display_date:  string,
+        day: number,
+        month: number,
+        year:  number,
+        main_text: string,
+	}
 }
 
 export {};
