@@ -2,15 +2,19 @@ import { gallery_pages } from '$lib/data/gallery_texts';
 
 export const load = (async ({ setHeaders, params }) => {
     setHeaders({
-		'Cache-Control': `max-age=${60}, s-maxage=${60}`
-	});
+        'Cache-Control': `max-age=${60}, s-maxage=${60}`
+    });
     const galleryType = params.gallery_type;
 
     const currentYear = new Date().getFullYear();
-    
-	let matchingPages = gallery_pages.filter((p) => p.type === galleryType).sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
 
-    if(galleryType === "all") matchingPages = gallery_pages.sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
+    let matchingPages;
 
-    return {matchingPages, currentYear};
+    if (galleryType === "all") {
+        matchingPages = gallery_pages.sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
+    } else {
+        matchingPages = gallery_pages.filter((p) => p.type === galleryType).sort((a, b) => b.year - a.year || b.month - a.month || b.day - a.day);
+    }
+
+    return { matchingPages, currentYear };
 })
