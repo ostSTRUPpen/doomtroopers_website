@@ -35,7 +35,7 @@
 						on:click={() => (window.location.href = `/gallery/${d.type}/${d.page_name}`)}
 					>
 						<td>
-							{d.title}
+							{@html d.title}
 						</td>
 						{#if $page.params.gallery_type === 'all'}
 							<td>
@@ -43,7 +43,7 @@
 							</td>
 						{/if}
 						<td>
-							{d.display_date}
+							{@html d.display_date}
 						</td>
 					</tr>
 				{/each}

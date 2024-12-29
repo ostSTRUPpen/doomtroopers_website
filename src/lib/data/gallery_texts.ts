@@ -56,7 +56,7 @@ export const gallery_pages: Array<GalleryTextsDataValue> = [
         day: 20,
         month: 8,
         year: 2020,
-        title: "Operace Lizzard XI",
+        title: "Operace Lizzard&nbsp;XI",
         main_text: `
         <b>Čtvrtek 20.8.:</b><br/>
 <p>Odjezd členů KVH Doomtroopers z HB v počtu 5 bojovníků povstalecké skupiny – Cloši, Sniper, Lulu, Pavel, Mory. Po registraci započala stavba obydlí a technického zázemí v Heratu.</p>
@@ -109,7 +109,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 2,
         month: 7,
         year: 2021,
-        title: "Operace Taškent XIII",
+        title: "Operace Taškent&nbsp;XIII",
         main_text: `
         <p>Boje povstalců vs NATO o pozice, které byly značeny vlajkami. Cílem bylo obsadit a co nejdéle udržet příslušný bod v terénu. Po součtu všech bodů, dle obsazenosti vlajek, vyhráli povstalci.
         </p>
@@ -137,7 +137,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 20,
         month: 8,
         year: 2021,
-        title: "Operace Lizzard XII",
+        title: "Operace Lizzard&nbsp;XII",
         main_text: `
         <b>Pátek</b><br/>
 <p>
@@ -183,7 +183,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 8,
         month: 10,
         year: 2021,
-        title: "Operace Kandahár III",
+        title: "Operace Kandahár&nbsp;III",
         main_text: `
         <p>
   Akce Kandahár III byl týmem DT pojat jako méně komfortní na zázemí oproti Lizzardu, takže se nebral stan, lehátka, židličky ani stoličky, ale spalo se pod plachtou, na zemi, s omezenou možností vaření.
@@ -220,7 +220,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 12,
         month: 3,
         year: 2022,
-        title: "Pístovský votvírák",
+        title: "Pístovský&nbsp;votvírák",
         main_text: `
         <p>Jednodenní akce v Pístovské Aréně. Dvě skupiny proti sobě, červení proti modrým. Cílem bylo v herním prostoru najít zlaté cihly a dopravit je na svou základnu. Protivník (modrý tým) byl houževnatý a dal nám chvílema slušně zabrat. Přesto se červeným podařilo sesbírat více zlatých cihel a jako bonus se nám podařilo ze základny modrých odcizit dvě zlaté cihly. Akci hodnotíme jako povedenou, líbila se nám a určitě přijedeme zase.</p>
         `
@@ -233,7 +233,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 22,
         month: 4,
         year: 2022,
-        title: "Operace Kandahár IV",
+        title: "Operace Kandahár&nbsp;IV",
         main_text: `
         <p>Podařená akce, jen je škoda, že nás z týmu bylo málo.</p>
         `
@@ -246,7 +246,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 27,
         month: 5,
         year: 2022,
-        title: "Operace Lizzard XIII",
+        title: "Operace Lizzard&nbsp;XIII",
         main_text: `
         <p>Tradiční pohodová akce, kam jezdíme za povstalce. Letos byla bohužel malá účast našich členů. Akce proběhla v malebné pískovcové krajině, nádherné skály, výhledy a hluboké strže, opravdu luxusní terén.
         </p> <br/>
@@ -262,7 +262,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 21,
         month: 4,
         year: 2023,
-        title: "Operace Kandahár V",
+        title: "Operace Kandahár&nbsp;V",
         main_text: `
         <p>
   Letošní Kandahár jsme opět jeli za povstalce. 
@@ -299,7 +299,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 13,
         month: 5,
         year: 2023,
-        title: "Invaze II",
+        title: "Invaze&nbsp;II",
         main_text: `
         <p>Pístov Aréna (Jihlava)<p>
 <p>Rozdělení na červené a modré, postupné obsazování vlajek. Chvílemi slušná řežba. Dobrá organizace, nebyl problém s nepřiznáváním. Hru jsme si užili
@@ -313,7 +313,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 29,
         month: 7,
         year: 2023,
-        title: "Bojová linie Kadlečák 2",
+        title: "Bojová linie Kadlečák&nbsp;2",
         main_text: `
         <p>Pořadatel Airsoft klub Světlá nad Sázavou.</p> <br/>
 <p>Jelo se za jednotky NATO, jejichž cílem bylo ubránit 4 body po dobu 2 hodin. V tomto časovém úseku se protivníkovi (povstalcům) podařilo dobít pouze dva. Po přestávce začala odpolední bitva o vlajku, ale po cca 15 min nás všechny z lesa vyhnala průtrž mračen a blesky. Akce byla dynamická, náročná, organizačně dobře zvládnutá, takže za nás spokojenost a těšíme se na příští ročník.
@@ -344,7 +344,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
         day: 26,
         month: 4,
         year: 2024,
-        title: "Kandahár VI",
+        title: "Kandahár&nbsp;VI",
         main_text: `
         <b>Pátek</b><br/>
 <p>
@@ -376,7 +376,7 @@ Sobotní noční akce jsme se neúčastnili.
         day: 24,
         month: 5,
         year: 2024,
-        title: "Lizzard XIV",
+        title: "Lizzard&nbsp;XIV",
         main_text: `
         <b>Pátek:</b><br/>
 <p>
@@ -530,7 +530,7 @@ Sérum jsme v přátelském pokecu s domobranou stihli vypít ještě na Kótě 
         day: 3,
         month: 8,
         year: 2024,
-        title: "Bojová linie Kadlečák 3",
+        title: "Bojová linie Kadlečák&nbsp;3",
         main_text: `
         <p>Bojová linie Kadlečák 3, dne 3.8.2024, pořadatel Airsoft klub Světlá nad Sázavou.</p> <br/>
         <p>Jelo se za jednotky NATO, jejíž cílem bylo ubránit 4 body po dobu 3 hodin. V tomto časovém úseku se protivníkovi (povstalcům) podařilo dobít tři. Rozdělení limitů na výkony zb. přidávalo hře na realičnosti, kdy jako obránci jsme měli respekt z odstřelovačů. Akce proběhla bez problémů a byla organizačně dobře zvládnutá, takže za nás spokojenost a těšíme se na příští ročník.
