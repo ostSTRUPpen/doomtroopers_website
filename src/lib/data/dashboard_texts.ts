@@ -49,7 +49,7 @@ export const happened_events: dashboardTextsData[] = [
         year: 2022,
         heading: "Pístovský&nbsp;votvírák",
         main_text: `
-        <p>Jednodenní akce v Pístovské Aréně. Dvě skupiny proti sobě, červení proti modrým. Cílem bylo v herním prostoru najít zlaté cihly a dopravit je na svou základnu. Protivník (modrý tým) byl houževnatý a dal nám chvílema slušně zabrat. Přesto se červeným podařilo sesbírat více zlatých cihel a jako bonus se nám podařilo ze základny modrých odcizit dvě zlaté cihly. Akci hodnotíme jako povedenou, líbila se nám a určitě přijedeme zase.</p>
+        <p>Jednodenní akce v Pístovské Aréně. Dvě skupiny proti sobě, červení proti modrým. Cílem bylo v herním prostoru najít zlaté cihly a dopravit je na svou základnu. Protivník (modrý tým) byl houževnatý a dal nám chvílemi slušně zabrat. Přesto se červeným podařilo sesbírat více zlatých cihel a jako bonus se nám podařilo ze základny modrých odcizit dvě zlaté cihly. Akci hodnotíme jako povedenou, líbila se nám a určitě přijedeme zase.</p>
         `
     },
     {
