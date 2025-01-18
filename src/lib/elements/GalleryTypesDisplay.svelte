@@ -1,3 +1,4 @@
+<div>
 <div
 	class="3xl:w-96 card card-compact float-start h-auto bg-base-100 shadow-xl md:w-52 lg:w-44 xl:w-64 2xl:w-80"
 >
@@ -35,4 +36,5 @@
 			<img src="/propagace.jpg" alt="Propagace" />
 		</figure>
 	</a>
+</div>
 </div>
