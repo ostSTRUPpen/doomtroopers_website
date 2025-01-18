@@ -14,6 +14,34 @@ import '../app.pcss';
 
 </script>
 
+<svelte:head>
+	<!-- HTML Meta Tags -->
+	<title>KVH Doomtroopers, z.s.</title>
+	<meta name="description" content="Jsme airsoft tým z Havlíčkova Brodu a okolí a působíme jako občanské sdružení KVH & AS Doomtroopers z.s. od roku 2004.">
+
+	<!-- Facebook Meta Tags -->
+	 <!--TODO přepsat na doomtroopers.cz-->
+	<meta property="og:url" content="https://www.ghbnav.cz/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="KVH Doomtroopers, z.s.">
+	<meta property="og:description" content="Jsme airsoft tým z Havlíčkova Brodu a okolí a působíme jako občanské sdružení KVH & AS Doomtroopers z.s. od roku 2004.">
+	<!--TODO přepsat na doomtroopers.cz-->
+	<meta property="og:image" content="https://www.ghbnav.cz/doomtroopers.png">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<!--TODO přepsat na doomtroopers.cz-->
+	<meta property="twitter:domain" content="ghbnav.cz">
+	<!--TODO přepsat na doomtroopers.cz-->
+	<meta property="twitter:url" content="https://www.ghbnav.cz/">
+	<meta name="twitter:title" content="KVH Doomtroopers, z.s.">
+	<meta name="twitter:description" content="Jsme airsoft tým z Havlíčkova Brodu a okolí a působíme jako občanské sdružení KVH & AS Doomtroopers z.s. od roku 2004.">
+	<!--TODO přepsat na doomtroopers.cz-->
+	<meta name="twitter:image" content="https://www.ghbnav.cz/doomtroopers.png">
+
+	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+</svelte:head>
+
 <!-- <div class="bg-red-300 sm:bg-green-300 md:bg-blue-300 lg:bg-black xl:bg-orange-500 2xl:bg-yellow-300 3xl:bg-pink-300">Size test</div>-->
 
 <div class="drawer lg:drawer-open">

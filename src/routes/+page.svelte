@@ -8,6 +8,8 @@
 	
 	// TODO rozdělit prod a dev branch
 
+	// TODO headery pro náhled odkazů	
+
 </script>
 
 <div class="ml-5 h-fit w-fit max-w-7xl content-between rounded-lg bg-base-200 p-5">
