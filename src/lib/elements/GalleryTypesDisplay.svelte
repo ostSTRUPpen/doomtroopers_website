@@ -1,6 +1,6 @@
 <div>
 <div
-	class="3xl:w-96 card card-compact float-start h-auto bg-base-100 shadow-xl md:w-52 lg:w-44 xl:w-64 2xl:w-80"
+	class="3xl:w-96 card card-compact float-start h-auto bg-base-300 shadow-xl md:w-52 lg:w-44 xl:w-64 2xl:w-80"
 >
 	<a href="/gallery/akce">
 		<div class="card-body">
@@ -13,7 +13,7 @@
 </div>
 
 <div
-	class="3xl:w-96 card card-compact float-start my-5 h-auto bg-base-100 shadow-xl md:mx-5 md:my-0 md:w-52 lg:w-44 xl:w-64 2xl:w-80"
+	class="3xl:w-96 card card-compact float-start my-5 h-auto bg-base-300 shadow-xl md:mx-5 md:my-0 md:w-52 lg:w-44 xl:w-64 2xl:w-80"
 >
 	<a href="/gallery/treninky">
 		<div class="card-body">
@@ -26,7 +26,7 @@
 </div>
 
 <div
-	class="3xl:w-96 card card-compact float-start h-auto bg-base-100 shadow-xl md:w-52 lg:w-44 xl:w-64 2xl:w-80"
+	class="3xl:w-96 card card-compact float-start h-auto bg-base-300 shadow-xl md:w-52 lg:w-44 xl:w-64 2xl:w-80"
 >
 	<a href="/gallery/propagace">
 		<div class="card-body">
