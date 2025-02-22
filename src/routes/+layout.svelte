@@ -11,6 +11,8 @@ import '../app.pcss';
 	function getCurrentYearPagesByType(type: string) {
 		return sortedCurrentYearPages[type as keyof typeof sortedCurrentYearPages];
 	}
+	
+	const mainUrlPart = "doomtroopers"
 
 </script>
 
@@ -20,24 +22,20 @@ import '../app.pcss';
 	<meta name="description" content="Jsme airsoft tým z Havlíčkova Brodu a okolí a působíme jako občanské sdružení KVH & AS Doomtroopers z.s. od roku 2004.">
 
 	<!-- Facebook Meta Tags -->
-	 <!--TODO přepsat na doomtroopers.cz-->
-	<meta property="og:url" content="https://www.ghbnav.cz/">
+	<meta property="og:url" content={`https://www.${mainUrlPart}.cz/`}>
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="KVH Doomtroopers, z.s.">
 	<meta property="og:description" content="Jsme airsoft tým z Havlíčkova Brodu a okolí a působíme jako občanské sdružení KVH & AS Doomtroopers z.s. od roku 2004.">
-	<!--TODO přepsat na doomtroopers.cz-->
-	<meta property="og:image" content="https://www.ghbnav.cz/doomtroopers.png">
+
+	<meta property="og:image" content={`https://www.${mainUrlPart}.cz/doomtroopers.png`}>
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
-	<!--TODO přepsat na doomtroopers.cz-->
-	<meta property="twitter:domain" content="ghbnav.cz">
-	<!--TODO přepsat na doomtroopers.cz-->
-	<meta property="twitter:url" content="https://www.ghbnav.cz/">
+	<meta property="twitter:domain" content={`${mainUrlPart}.cz`}>
+	<meta property="twitter:url" content={`https://www.${mainUrlPart}.cz/`}>
 	<meta name="twitter:title" content="KVH Doomtroopers, z.s.">
 	<meta name="twitter:description" content="Jsme airsoft tým z Havlíčkova Brodu a okolí a působíme jako občanské sdružení KVH & AS Doomtroopers z.s. od roku 2004.">
-	<!--TODO přepsat na doomtroopers.cz-->
-	<meta name="twitter:image" content="https://www.ghbnav.cz/doomtroopers.png">
+	<meta name="twitter:image" content={`https://www.${mainUrlPart}.cz/doomtroopers.png`}>
 
 	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
 </svelte:head>
@@ -76,6 +74,7 @@ import '../app.pcss';
 					<a href="/"><img src="/doomtroopers.png" alt="Logo" /></a>
 					<ul class="list-none bg-base-300 rounded-md">
 						<li class="ml-2 text-lg">KVH Doomtroopers, z.s.</li>
+						<!-- TODO add email if necessary -->
 					<!--<li class="-inset-x-1 list-item -mb-1"><a href="mailto:info@doomtroopers.cz">info@doomtroopers.cz</a></li>-->						
 						<li class="-inset-x-1 list-item"><a href="https://www.facebook.com/KvhAsDoomtroopers/" target="_blank">Fb: KvhAsDoomtroopers</a></li>
 					</ul>
