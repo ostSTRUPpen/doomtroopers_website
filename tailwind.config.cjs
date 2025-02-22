@@ -3,19 +3,18 @@ const config = {
 	content: ['./src/routes/**/*.{svelte,js,ts}', './src/lib/elements/**/*.{svelte,js,ts}'],
 	plugins: [require('daisyui')],
 	daisyui: {
-		// TODO theme
 		themes:[
 			{
-				doomtroopers_light: {
-					primary: '#fd8549',
+				doomtroopers: {
+					primary: '#111827',
 
 					secondary: '#2f3c4c',
 
 					accent: '#c8f1f4',
 
 					neutral: '#312235',
-
-					'base-100': '#f6fdfe',
+ 
+					"base-100": "#a8a29e",
 
 					info: '#69acd3',
 
@@ -23,7 +22,7 @@ const config = {
 
 					warning: '#dbad14',
 
-					error: '#e14c7e'
+					error: '#9f1239'
 				},
 			},
 		]
