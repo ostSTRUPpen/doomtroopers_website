@@ -48,16 +48,33 @@
 // Možní jednou bude potřeba předělat, až bude fakt tuna textů... idk
 
 export const gallery_pages: Array<GalleryTextsDataValue> = [
-    {
-        page_name: "lizzard_xi",
-        link_text: "Lizzard XI",
-        type: "akce",
-        display_date: "20.-23. 8. 2020",
-        day: 20,
-        month: 8,
-        year: 2020,
-        title: "Operace Lizzard&nbsp;XI",
-        main_text: `
+  {
+    page_name: "logisticky_konvoj_kadlecak_1",
+    link_text: "Logistický konvoj 1",
+    type: "akce",
+    display_date: "26. 10. 2024",
+    day: 26,
+    month: 10,
+    year: 2024,
+    title: "Logistický konvoj Kadlečák",
+    main_text: `
+    <p>Jelo se za jednotky NATO, proti kterým bojovali povstalci. Úkolem bylo pomocí pekelného stroje distribuovat výzbroj a zásoby munice k předsunutým pozicím.
+Což v reálu spočívalo v přesunu vozidla s nákladem, dle vyznačené trasy, a postupném obsazováním předsunutých pozic, kde došlo k vykládce munice podle připraveného soupisu.</p> <br/>
+<p>Úkol protivníka byl zabránit obsazení pozic a vyložení munice. Po vyložení munice se dále o tento bod nebojovalo a hra se přesunula na další pozici.
+Straně NATO se podařilo po urputných bojích postupně obsadit všechny pozice v časovém limitu. Po pauze na oběd se role prohodili a povstalci dobývali předsunuté pozice a zanášeli do nich munici z pekelného stroje.</p><br/>
+<p>Námět akce byl zajímavý a hra byla dynamická. Pořadatel si hodně vyhrál s rekvizitami a příběhem, který se sice na začátku zdál komplikovaný, ale vycházel z logiky věci a vše do sebe krásně zapadalo a dávalo smysl. Za nás spokojenost a těšíme se na další ročník.</p><br/>
+    `
+  },
+  {
+    page_name: "lizzard_xi",
+    link_text: "Lizzard XI",
+    type: "akce",
+    display_date: "20.-23. 8. 2020",
+    day: 20,
+    month: 8,
+    year: 2020,
+    title: "Operace Lizzard&nbsp;XI",
+    main_text: `
         <b>Čtvrtek 20.8.:</b><br/>
 <p>Odjezd členů KVH Doomtroopers z HB v počtu 5 bojovníků povstalecké skupiny – Cloši, Sniper, Lulu, Pavel, Mory. Po registraci započala stavba obydlí a technického zázemí v Heratu.</p>
 <br/>
@@ -86,59 +103,59 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 <p>Následoval poslední úkol pro naší vesnici Herat, kterého se naše skupina nezúčastnila a vydala domů s ohledem na některé spěchající bojovníky, ve zbylém počtu 4 špinavých a válkou zbídačených povstaleckých veteránů. Pouze naše sousední posilová skupina 3 mužů vyrazila do boje, těm náleží patřičné uznání.
 </p>
 `
-    },
-    {
-        page_name: "strilecka_30_5_2021",
-        link_text: "Střílečka 30. 5. 2021",
-        type: "akce",
-        display_date: "30. 5. 2021",
-        day: 30,
-        month: 5,
-        year: 2021,
-        title: "Střílečka",
-        main_text: `
+  },
+  {
+    page_name: "strilecka_30_5_2021",
+    link_text: "Střílečka 30. 5. 2021",
+    type: "akce",
+    display_date: "30. 5. 2021",
+    day: 30,
+    month: 5,
+    year: 2021,
+    title: "Střílečka",
+    main_text: `
         <p>Nedělní střílečka dne 30.5.2021. Děkujeme Airsoft Team Highlander a klukům z týmu z 24. SnP za to že přijeli. Díky silnému protivníkovi to bylo náročné bojové odpoledne. Rádi vás opět uvidíme na další akci.
         </p>
         `
-    },
-    {
-        page_name: "taskent_xiii",
-        link_text: "Taškent XIII",
-        type: "akce",
-        display_date: "2.-3. 7. 2021",
-        day: 2,
-        month: 7,
-        year: 2021,
-        title: "Operace Taškent&nbsp;XIII",
-        main_text: `
+  },
+  {
+    page_name: "taskent_xiii",
+    link_text: "Taškent XIII",
+    type: "akce",
+    display_date: "2.-3. 7. 2021",
+    day: 2,
+    month: 7,
+    year: 2021,
+    title: "Operace Taškent&nbsp;XIII",
+    main_text: `
         <p>Boje povstalců vs NATO o pozice, které byly značeny vlajkami. Cílem bylo obsadit a co nejdéle udržet příslušný bod v terénu. Po součtu všech bodů, dle obsazenosti vlajek, vyhráli povstalci.
         </p>
         `
-    },
-    {
-        page_name: "strilecka_31_7_2021",
-        link_text: "Střílečka 31. 7. 2021",
-        type: "akce",
-        display_date: "31. 7. 2021",
-        day: 31,
-        month: 7,
-        year: 2021,
-        title: "Střílečka",
-        main_text: `
+  },
+  {
+    page_name: "strilecka_31_7_2021",
+    link_text: "Střílečka 31. 7. 2021",
+    type: "akce",
+    display_date: "31. 7. 2021",
+    day: 31,
+    month: 7,
+    year: 2021,
+    title: "Střílečka",
+    main_text: `
         <p>Ve stylu "najdi a znič" proběhlo celé odpoledne. V první polovině herního času se hrálo klasicky s dlouhými zb a po celém lese. Druhá polovina herního času se hrála na ve zmenšeném prostou a pouze s krátkými zb. Hra s pistolemi byla velice zábavná, vtipná a poučná. Děkujeme všem účastníkům.
         </p>
         `
-    },
-    {
-        page_name: "lizzard_xii",
-        link_text: "Lizzard XII",
-        type: "akce",
-        display_date: "20.-22. 8. 2021",
-        day: 20,
-        month: 8,
-        year: 2021,
-        title: "Operace Lizzard&nbsp;XII",
-        main_text: `
+  },
+  {
+    page_name: "lizzard_xii",
+    link_text: "Lizzard XII",
+    type: "akce",
+    display_date: "20.-22. 8. 2021",
+    day: 20,
+    month: 8,
+    year: 2021,
+    title: "Operace Lizzard&nbsp;XII",
+    main_text: `
         <b>Pátek</b><br/>
 <p>
   První úkol bylo najít a obsadit bod zájmu a následně udržet od 12 do 15 hod. s tím, že kdo má místo pod kontrolou v 15 hod, tak vyhrál. Místo zájmu se nám spolu s dalšími povstalci podařilo v lese najít a obsadit už okolo 12. hodiny, následovala kruhová obrana ve dvou řadách. Začalo pršet. Okolo 13. hodiny přijelo několik aut s vojáky ISAF a zahájilo útok, který se nám podařilo odrazit s malými ztrátami ve vlastních řadách. Vojáci se stáhli, ošetřili zraněné a doplnili stavy, reorganizovali se a zahájili druhý útok spojený s obchvaty na obou křídlech. Následoval intenzivní boj. Povstalci i vojáci utrpěli značné ztráty. Bod zájmu byl vojáky ISAF dobyt, obsazen a držen až do 15. hodiny. Při této přestřelce byla citelně znát výhoda na straně ISAF, a to ošetřování zraněných vojáků mediky a jejich návrat do hry. Při splnění tohoto úkolu příslušná strana získala munici k ničení vozidel protivníka.
@@ -174,17 +191,17 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
   Lizzard XII se nám líbil, je to už taková srdcová záležitost. Přesto, že povstalci skoro všechny úkoly prohráli, jsme si užili spoustu legrace, vtípků, připomněli si specifický vesnický a povstalecký folklór a poznali nové spolubojovníky.
 </p>
         `
-    },
-        {
-        page_name: "kandahar_iii",
-        link_text: "Kandahár III",
-        type: "akce",
-        display_date: "8.-10. 10. 2021",
-        day: 8,
-        month: 10,
-        year: 2021,
-        title: "Operace Kandahár&nbsp;III",
-        main_text: `
+  },
+  {
+    page_name: "kandahar_iii",
+    link_text: "Kandahár III",
+    type: "akce",
+    display_date: "8.-10. 10. 2021",
+    day: 8,
+    month: 10,
+    year: 2021,
+    title: "Operace Kandahár&nbsp;III",
+    main_text: `
         <p>
   Akce Kandahár III byl týmem DT pojat jako méně komfortní na zázemí oproti Lizzardu, takže se nebral stan, lehátka, židličky ani stoličky, ale spalo se pod plachtou, na zemi, s omezenou možností vaření.
 </p> <br/>
@@ -211,59 +228,59 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
   Za nás super akce, pěkný a členitý terén, nezaznamenali jsme nějaký konflikt či nepřiznání, vše bylo v pořádku. Chválíme možnost ošetřovat povstalce pomocí mobilní ambulance a dále chválíme organizátory za optimální počet toitoiek ve vesnicích. Jediné, co bylo trochu na škodu, bylo, že měření úsťovek probíhalo na „jednom“ chronu, a tím se vytvářely čekací fronty s dobou 30 a více minut.
 </p>
         `
-    },
-    {
-        page_name: "pistovsky_votvirak_2022",
-        link_text: "Pístovský votvírák 2022",
-        type: "akce",
-        display_date: "12. 3. 2022",
-        day: 12,
-        month: 3,
-        year: 2022,
-        title: "Pístovský&nbsp;votvírák",
-        main_text: `
+  },
+  {
+    page_name: "pistovsky_votvirak_2022",
+    link_text: "Pístovský votvírák 2022",
+    type: "akce",
+    display_date: "12. 3. 2022",
+    day: 12,
+    month: 3,
+    year: 2022,
+    title: "Pístovský&nbsp;votvírák",
+    main_text: `
         <p>Jednodenní akce v Pístovské Aréně. Dvě skupiny proti sobě, červení proti modrým. Cílem bylo v herním prostoru najít zlaté cihly a dopravit je na svou základnu. Protivník (modrý tým) byl houževnatý a dal nám chvílemi slušně zabrat. Přesto se červeným podařilo sesbírat více zlatých cihel a jako bonus se nám podařilo ze základny modrých odcizit dvě zlaté cihly. Akci hodnotíme jako povedenou, líbila se nám a určitě přijedeme zase.</p>
         `
-    },
-    {
-        page_name: "kandahar_iv",
-        link_text: "Kandahár IV",
-        type: "akce",
-        display_date: "22.-24. 4. 2022",
-        day: 22,
-        month: 4,
-        year: 2022,
-        title: "Operace Kandahár&nbsp;IV",
-        main_text: `
+  },
+  {
+    page_name: "kandahar_iv",
+    link_text: "Kandahár IV",
+    type: "akce",
+    display_date: "22.-24. 4. 2022",
+    day: 22,
+    month: 4,
+    year: 2022,
+    title: "Operace Kandahár&nbsp;IV",
+    main_text: `
         <p>Podařená akce, jen je škoda, že nás z týmu bylo málo.</p>
         `
-    },
-    {
-        page_name: "lizzard_xiii",
-        link_text: "Lizzard XIII",
-        type: "akce",
-        display_date: "27.-29. 5. 2022",
-        day: 27,
-        month: 5,
-        year: 2022,
-        title: "Operace Lizzard&nbsp;XIII",
-        main_text: `
+  },
+  {
+    page_name: "lizzard_xiii",
+    link_text: "Lizzard XIII",
+    type: "akce",
+    display_date: "27.-29. 5. 2022",
+    day: 27,
+    month: 5,
+    year: 2022,
+    title: "Operace Lizzard&nbsp;XIII",
+    main_text: `
         <p>Tradiční pohodová akce, kam jezdíme za povstalce. Letos byla bohužel malá účast našich členů. Akce proběhla v malebné pískovcové krajině, nádherné skály, výhledy a hluboké strže, opravdu luxusní terén.
         </p> <br/>
         <p>Naše skupinka byla už od pátečních 10 hodin v kontaktu s bezvěrci a to trvalo až do konce celé akce Lizzard, vyjma nočních akcí, kterých jsme se neúčastnili. Pátek propršel, sobota a neděle byla už v pohodě.
         </p>
         `
-    },
-    {
-        page_name: "kandahar_v",
-        link_text: "Kandahár V",
-        type: "akce",
-        display_date: "21.-23. 4. 2023",
-        day: 21,
-        month: 4,
-        year: 2023,
-        title: "Operace Kandahár&nbsp;V",
-        main_text: `
+  },
+  {
+    page_name: "kandahar_v",
+    link_text: "Kandahár V",
+    type: "akce",
+    display_date: "21.-23. 4. 2023",
+    day: 21,
+    month: 4,
+    year: 2023,
+    title: "Operace Kandahár&nbsp;V",
+    main_text: `
         <p>
   Letošní Kandahár jsme opět jeli za povstalce. 
 
@@ -290,62 +307,62 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
   Akci hodnotíme pozitivně, počasí vyšlo nádherně a užili jsme si bojů. Bohužel jsme zaznamenali problém s nepřiznáváním, a to jak u povstalců, tak i u protivníka. Zbytečně se kazí hra. Co bylo trochu náročné, tak byly noci ve vesnici Ghokar, chápeme, že když se člověk utrhne z domova a práce, tak si chce povyrazit, ale proč se Ghokar změnil v noci na technoparty končící nad ránem? Uprostřed vesnice je v provozu elektrocentrála, aby se mohla sledovat televize? Proč? V Kandaháru se pomocí prodlužováku přesunuli elektrocentrály mimo vesnici. Podezírali jsme tyto skupiny, že jsou to převlečený isafáci, kteří mají za úkol zajistit nevyspání povstalců. Pokud by organizátor vytvořil novou vesnici, kde by se fungovalo víc s přírodou, bez hlasité hudby, televizí a elektrocentrál, tak bychom se do ní přihlásili
 </p>
         `
-    },
-    {
-        page_name: "invaze_ii",
-        link_text: "Invaze II",
-        type: "akce",
-        display_date: "13. 5. 2023",
-        day: 13,
-        month: 5,
-        year: 2023,
-        title: "Invaze&nbsp;II",
-        main_text: `
+  },
+  {
+    page_name: "invaze_ii",
+    link_text: "Invaze II",
+    type: "akce",
+    display_date: "13. 5. 2023",
+    day: 13,
+    month: 5,
+    year: 2023,
+    title: "Invaze&nbsp;II",
+    main_text: `
         <p>Pístov Aréna (Jihlava)<p>
 <p>Rozdělení na červené a modré, postupné obsazování vlajek. Chvílemi slušná řežba. Dobrá organizace, nebyl problém s nepřiznáváním. Hru jsme si užili
    </p>     `
-    },
-    {
-        page_name: "bojova_linie_kadlecak_2",
-        link_text: "Bojová linie Kadlečák 2",
-        type: "akce",
-        display_date: "29. 7. 2023",
-        day: 29,
-        month: 7,
-        year: 2023,
-        title: "Bojová linie Kadlečák&nbsp;2",
-        main_text: `
+  },
+  {
+    page_name: "bojova_linie_kadlecak_2",
+    link_text: "Bojová linie Kadlečák 2",
+    type: "akce",
+    display_date: "29. 7. 2023",
+    day: 29,
+    month: 7,
+    year: 2023,
+    title: "Bojová linie Kadlečák&nbsp;2",
+    main_text: `
         <p>Pořadatel Airsoft klub Světlá nad Sázavou.</p> <br/>
 <p>Jelo se za jednotky NATO, jejichž cílem bylo ubránit 4 body po dobu 2 hodin. V tomto časovém úseku se protivníkovi (povstalcům) podařilo dobít pouze dva. Po přestávce začala odpolední bitva o vlajku, ale po cca 15 min nás všechny z lesa vyhnala průtrž mračen a blesky. Akce byla dynamická, náročná, organizačně dobře zvládnutá, takže za nás spokojenost a těšíme se na příští ročník.
    </p>     `
-    },
-    {
-        page_name: "hostage_must_be_rescued",
-        link_text: "Hostage must be rescued",
-        type: "akce",
-        display_date: "24. 9. 2023",
-        day: 24,
-        month: 9,
-        year: 2023,
-        title: "Hostage must be rescued",
-        main_text: `
+  },
+  {
+    page_name: "hostage_must_be_rescued",
+    link_text: "Hostage must be rescued",
+    type: "akce",
+    display_date: "24. 9. 2023",
+    day: 24,
+    month: 9,
+    year: 2023,
+    title: "Hostage must be rescued",
+    main_text: `
         <p>Scénářová střílečka - záchrana rukojmí. Jihlava, Pístovská aréna 24.9.2023.</p> <br/>
 
 <p>Cílem bylo najít a osvobodit rukojmí, což se podařilo. Po prohození stran byl náš úkol zabránit osvobození rukojmí (což se taky podařilo).</p> <br/>
 
 <p>Akci hodnotíme pozitivně. </p>
         `
-    },
-    {
-        page_name: "kandahar_vi",
-        link_text: "Kandahár VI",
-        type: "akce",
-        display_date: "26.-28. 4. 2024",
-        day: 26,
-        month: 4,
-        year: 2024,
-        title: "Kandahár&nbsp;VI",
-        main_text: `
+  },
+  {
+    page_name: "kandahar_vi",
+    link_text: "Kandahár VI",
+    type: "akce",
+    display_date: "26.-28. 4. 2024",
+    day: 26,
+    month: 4,
+    year: 2024,
+    title: "Kandahár&nbsp;VI",
+    main_text: `
         <b>Pátek</b><br/>
 <p>
   Na akci jsme dorazili v pátek akorát na začátek registrace, přesto jsme čekali ve frontě cca 20 min. Měření úsťových rychlostí nebylo bohužel připravené a informace nebyly. Proto jsme se přesunuli do vesnice Ghokar a v klidu postavili přístřešek. Okolo 18 hod jsme vyrazili na měření úsťovek. Ve frontě se čekalo dalších 50 min. Bohužel i letos nebylo měření úsťovek a registrace organizačně zvládnuté.
@@ -367,17 +384,17 @@ Sobotní noční akce jsme se neúčastnili.
   Kandahár 2024 hodnotíme pozitivně, nějaký zásadní problém s nepřiznáváním jsme nezaznamenali, organizace akce dobrá, až na ty nepřiměřené prostoje u registrace a měření úsťovek. Kupodivu se v Ghokaru dalo spát, elektrocentrály se okolo 02:00 hod vypínaly a po zbytek noci se nekonala technoparty a podobně, takže to bylo fajn.
 </p>
         `
-    },
-    {
-        page_name: "lizzard_xiv",
-        link_text: "Lizzard XIV",
-        type: "akce",
-        display_date: "24.-26. 5. 2024",
-        day: 24,
-        month: 5,
-        year: 2024,
-        title: "Lizzard&nbsp;XIV",
-        main_text: `
+  },
+  {
+    page_name: "lizzard_xiv",
+    link_text: "Lizzard XIV",
+    type: "akce",
+    display_date: "24.-26. 5. 2024",
+    day: 24,
+    month: 5,
+    year: 2024,
+    title: "Lizzard&nbsp;XIV",
+    main_text: `
         <b>Pátek:</b><br/>
 <p>
   Prvním úkolem naší šestičlenné skupiny, bylo přepravit plechovou bednu přes celé herní území do vesnice Asmar. Po vysazení na opačném konci herního prostoru jsme se rychlým tempem a s maximální opatrností dostali bez problémů až do poloviny naší trasy. Zde došlo k nešťastné souhře náhod, kousek od místa, kde jsme se ukrývali před z dáli slyšitelnými auty, došlo k výsadku skupiny ISAF (dvě auta). Při nepozorovaném ústupu došlo bohužel k nechtěnému prozrazení naší skupiny, spustili jsme proto na překvapený ISAF krycí palbu. Pověřeným osobám s bednou, se podařilo zmizet do bezpečí. Zbylí bojovníci hrdinně bojovali, až se jim podařilo setkat se s vytouženými pannami.
@@ -401,41 +418,41 @@ Sobotní noční akce jsme se neúčastnili.
   Letošní Lizzard byl obzvláště povedený, klidný, nepřiznávání bylo pomálu, organizace celé akce, z našeho pohledu, byla povedená. Díky.
 </p>
         `
-    },
-    {
-        page_name: "pochod_2021",
-        link_text: "Pochod 2021",
-        type: "treninky",
-        display_date: "9. 4. 2021",
-        day: 9,
-        month: 4,
-        year: 2021,
-        title: "Pochod",
-        main_text: `
+  },
+  {
+    page_name: "pochod_2021",
+    link_text: "Pochod 2021",
+    type: "treninky",
+    display_date: "9. 4. 2021",
+    day: 9,
+    month: 4,
+    year: 2021,
+    title: "Pochod",
+    main_text: `
         <p>Pochod s přespáním v lese.</p>
         `
-    },
-    {
-        page_name: "trenink_30_5_2021",
-        link_text: "Trénink 30. 5. 2021",
-        type: "treninky",
-        display_date: "30. 5. 2021",
-        day: 30,
-        month: 5,
-        year: 2021,
-        title: "Trénink",
-        main_text: ``
-    },
-    {
-        page_name: "pochod_2022",
-        link_text: "Zimní pochod 2022",
-        type: "treninky",
-        display_date: "5.-6. 2. 2022",
-        day: 5,
-        month: 2,
-        year: 2022,
-        title: "Zimní pochod",
-        main_text: `
+  },
+  {
+    page_name: "trenink_30_5_2021",
+    link_text: "Trénink 30. 5. 2021",
+    type: "treninky",
+    display_date: "30. 5. 2021",
+    day: 30,
+    month: 5,
+    year: 2021,
+    title: "Trénink",
+    main_text: ``
+  },
+  {
+    page_name: "pochod_2022",
+    link_text: "Zimní pochod 2022",
+    type: "treninky",
+    display_date: "5.-6. 2. 2022",
+    day: 5,
+    month: 2,
+    year: 2022,
+    title: "Zimní pochod",
+    main_text: `
        <p> Akce byla koncipována jako dvoudenní pochod malé průzkumné skupiny na území nepřítele.
 </p> <br/> <p>Výsadek proběhl v sobotu ráno na kraji lesa. Prvním úkolem naší tříčlenné skupiny bylo v lese najít pomníček a studánku, což se podařilo. Dalším úkolem bylo prozkoumat zajatecký tábor. Do místa určení jsme se nepozorovaně přesunuli a prozkoumali ho. Při opouštění tohoto místa došlo k útoku nepřátelského odstřelovače. Nedařilo se nám ho lokalizovat. Po té, co nás "držel" na zemi, se ho podařilo najít a eliminovat. Dalším bodem byl bod Rybník, kde na nás čekal informátor s dalšími instrukcemi. Asi 300 metrů před místem setkání nás v malém údolí u potoka přepadla dobře zamaskovaná místní domobrana a kvůli momentu překvapení a připravené léčky nás všechny zlikvidovala. Po oživení jsme pokračovali dále k bodu Rybník, ale informátor tam nebyl. Později jsme se dozvěděli, že byl místní domobranou zajat a úspěšně vyslýchán, proto věděli, že dorazíme. Dalším bodem byla Kota 493, kde jsme měli v mrtvé schránce vyzvednout vzorek očkovacího séra. Při stoupání na kopec jsme opět byli napadeni místní domobranou. Jeden člen naší skupiny byl zasažen, ostatním se podařilo postupně eliminovat obránce a získat vzorek séra. Pro zraněného spolubojovníka jsme povolali vrtulník. V dalším postupu se pokračovalo už jen ve dvou. Posledním sobotním úkolem bylo dojít za světla do cílového místa, provést průzkum lesa a přespat. Do cíle jsme dorazili za šera, takže obsáhlejší průzkum lesa byl proveden až v neděli ráno. Nedělním úkolem bylo se do 12 hod dostat na smluvené místo, kde byla naplánovaná střílečka s dalšími bojovníky. Trasa mimo cesty byla stejně jako v sobotu náročná, bažinatá. Nejvýznamnější překážkou byla lehce rozvodněná řeka Sázava, do toho sněžilo, foukalo a občas i pršelo. Do cíle jsme došli včas a zapojili se do začínající střílečky, tentokrát už bez batohů na zádech.
 </p> <br/> <p>
@@ -443,110 +460,110 @@ Děkujeme za OPFOR: Morymu z domovského týmu Doomtroopers a klukům z týmu 24
 Sérum jsme v přátelském pokecu s domobranou stihli vypít ještě na Kótě 493.
 </p>
         `
-    },
-    {
-        page_name: "krouzek_mp_hb_2022",
-        link_text: "Kroužek MP HB",
-        type: "propagace",
-        display_date: "19. 5. 2022",
-        day: 19,
-        month: 5,
-        year: 2022,
-        title: "Kroužek MP HB",
-        main_text: `
+  },
+  {
+    page_name: "krouzek_mp_hb_2022",
+    link_text: "Kroužek MP HB",
+    type: "propagace",
+    display_date: "19. 5. 2022",
+    day: 19,
+    month: 5,
+    year: 2022,
+    title: "Kroužek MP HB",
+    main_text: `
         <p>Střelnice pro děti z Kroužku mladých strážníků MP HB. Malá ukázka airsoftu spolu s možností zastřílet si ze 4 druhů airsoftových zbraní.</p>
         `
-    },
-    {
-        page_name: "krouzek_mp_hb_2023",
-        link_text: "Kroužek MP HB",
-        type: "propagace",
-        display_date: "2. 5. 2023",
-        day: 2,
-        month: 5,
-        year: 2023,
-        title: "Kroužek MP HB",
-        main_text: `
+  },
+  {
+    page_name: "krouzek_mp_hb_2023",
+    link_text: "Kroužek MP HB",
+    type: "propagace",
+    display_date: "2. 5. 2023",
+    day: 2,
+    month: 5,
+    year: 2023,
+    title: "Kroužek MP HB",
+    main_text: `
         <p>Střelnice pro děti z Kroužku mladých strážníků MP HB. Malá ukázka airsoftu spolu s možností zastřílet si z airsoftových zbraní.</p>
         `
-    },
-    {
-        page_name: "tabor_mp_hb_2023",
-        link_text: "Tábor MP HB",
-        type: "propagace",
-        display_date: "5. 7. 2023",
-        day: 5,
-        month: 7,
-        year: 2023,
-        title: "Tábor MP HB",
-        main_text: `
+  },
+  {
+    page_name: "tabor_mp_hb_2023",
+    link_text: "Tábor MP HB",
+    type: "propagace",
+    display_date: "5. 7. 2023",
+    day: 5,
+    month: 7,
+    year: 2023,
+    title: "Tábor MP HB",
+    main_text: `
         <p>Střelnice pro děti z příměstského tábora Mladých strážníků MP HB. Ukázka airsoftu spolu s možností zastřílet si.</p>
         `
-    },
-    {
-        page_name: "fara_hb_2023",
-        link_text: "Fara HB",
-        type: "propagace",
-        display_date: "3. 9. 2023",
-        day: 3,
-        month: 9,
-        year: 2023,
-        title: "Fara HB",
-        main_text: `
+  },
+  {
+    page_name: "fara_hb_2023",
+    link_text: "Fara HB",
+    type: "propagace",
+    display_date: "3. 9. 2023",
+    day: 3,
+    month: 9,
+    year: 2023,
+    title: "Fara HB",
+    main_text: `
         <p> Střelnice a ukázka airsoftu, Fara HB dne 3.9.2023. Fajnově strávený den mezi příjemnými lidmi z fary. </p>
         `
-    },
-    {
-        page_name: "motorsvet_2023",
-        link_text: "MotorSvět",
-        type: "propagace",
-        display_date: "9. 9. 2023",
-        day: 9,
-        month: 9,
-        year: 2023,
-        title: "MotorSvět",
-        main_text: `
+  },
+  {
+    page_name: "motorsvet_2023",
+    link_text: "MotorSvět",
+    type: "propagace",
+    display_date: "9. 9. 2023",
+    day: 9,
+    month: 9,
+    year: 2023,
+    title: "MotorSvět",
+    main_text: `
         <p>Prezentace airsoftu na akci MotorSvět v Havlíčkově Brodě. </p>
         `
-    },
-    {
-        page_name: "tabor_mp_hb_2024",
-        link_text: "Tábor MP HB",
-        type: "propagace",
-        display_date: "1. 7. 2024",
-        day: 1,
-        month: 7,
-        year: 2024,
-        title: "Tábor MP HB",
-        main_text: `
+  },
+  {
+    page_name: "tabor_mp_hb_2024",
+    link_text: "Tábor MP HB",
+    type: "propagace",
+    display_date: "1. 7. 2024",
+    day: 1,
+    month: 7,
+    year: 2024,
+    title: "Tábor MP HB",
+    main_text: `
         <p>Střelnice pro děti z příměstského tábora Mladých strážníků MP HB. Ukázka airsoftu s možností si zastřílet.</p>
         `
-    },
-    {
-        page_name: "bojova_linie_kadlecak_3",
-        link_text: "Bojová linie Kadlečák 3",
-        type: "akce",
-        display_date: "3. 8. 2024",
-        day: 3,
-        month: 8,
-        year: 2024,
-        title: "Bojová linie Kadlečák&nbsp;3",
-        main_text: `
+  },
+  {
+    page_name: "bojova_linie_kadlecak_3",
+    link_text: "Bojová linie Kadlečák 3",
+    type: "akce",
+    display_date: "3. 8. 2024",
+    day: 3,
+    month: 8,
+    year: 2024,
+    title: "Bojová linie Kadlečák&nbsp;3",
+    main_text: `
         <p>Bojová linie Kadlečák 3, dne 3.8.2024, pořadatel Airsoft klub Světlá nad Sázavou.</p> <br/>
         <p>Jelo se za jednotky NATO, jejíž cílem bylo ubránit 4 body po dobu 3 hodin. V tomto časovém úseku se protivníkovi (povstalcům) podařilo dobít tři. Rozdělení limitů na výkony zb. přidávalo hře na realističnosti, kdy jako obránci jsme měli respekt z odstřelovačů. Akce proběhla bez problémů a byla organizačně dobře zvládnutá, takže za nás spokojenost a těšíme se na příští ročník.
 </p>
         `
-    },
-    {
-      page_name: "tabor_mp_hb_2022",
-      link_text: "Tábor MP HB",
-      type: "propagace",
-      display_date: "4. 7. 2022",
-      day: 4,
-      month: 7,
-      year: 2022,
-      title: "Tábor MP HB",
-      main_text: `
+  },
+  {
+    page_name: "tabor_mp_hb_2022",
+    link_text: "Tábor MP HB",
+    type: "propagace",
+    display_date: "4. 7. 2022",
+    day: 4,
+    month: 7,
+    year: 2022,
+    title: "Tábor MP HB",
+    main_text: `
       <p>Střelnice pro děti z příměstského tábora Mladých strážníků MP HB. Ukázka airsoftu s možností si zastřílet.</p>
       `
   },
