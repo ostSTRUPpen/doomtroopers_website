@@ -1,10 +1,5 @@
 <script lang="ts">
 	import GalleryTypesDisplay from '$lib/elements/GalleryTypesDisplay.svelte';
-
-	//TODO podpora pro www.doomtroopers.cz
-			//Správně nastavit CORS v Azure
-	
-	// TODO rozdělit prod a dev branch
 </script>
 
 <div class="ml-5 h-fit w-fit max-w-7xl content-between rounded-lg bg-base-200 p-5">

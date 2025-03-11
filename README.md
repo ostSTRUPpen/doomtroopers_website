@@ -1,3 +1,5 @@
+// TODO udělat normální readme
+
 # doomtroopers_website
 
 ## GitHub pages:
