@@ -9,7 +9,7 @@
 
 <div class="ml-5 h-fit max-w-7xl content-between rounded-lg bg-base-200 p-5">
 	<h2 class="pb-5 text-center text-5xl font-extrabold text-primary">Nástěnka</h2>
-	<p>Informace o akcích, kterých se zúčastníme, organizuje nebo jsme se jich zúčastnili a další informace.</p>
+	<p>Informace o námi organizovaných akcích. Popřípadě o akcích, kterých jsme se zúčastnili, ale ještě nemají stránku v galerii.</p>
 	<br/>
 	{#if other.length > 0}
 		<DashboardText header="" texts={other} />
