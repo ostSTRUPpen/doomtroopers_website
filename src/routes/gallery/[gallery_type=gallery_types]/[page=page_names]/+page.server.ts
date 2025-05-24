@@ -1,3 +1,5 @@
+import type { Load } from '@sveltejs/kit';
+
 import { AZURE_CONNECTION_STRING } from '$env/static/private';
 
 import { gallery_pages } from '$lib/data/gallery_texts';
@@ -20,7 +22,7 @@ async function getCorrectImageNames(pageName: string): Promise<string[]> {
 	return correctImages;
 }
 
-export const load = async ({ setHeaders, params }) => {
+export const load: Load<{ page: string }, { pageData: GalleryTextsDataValue | undefined, pageImages: string[] }> = async ({ setHeaders, params }) => {
 	setHeaders({
 		'Cache-Control': `max-age=${360}, s-maxage=${360}`
 	});

@@ -1,6 +1,8 @@
+import type { Load } from '@sveltejs/kit';
+
 import { gallery_pages } from '$lib/data/gallery_texts';
 
-export const load = (async ({ setHeaders, params }) => {
+export const load: Load<{ gallery_type: string }, { matchingPages: GalleryTextsDataValue[]; currentYear: number }> = (async ({ setHeaders, params }) => {
     setHeaders({
         'Cache-Control': `max-age=${60}, s-maxage=${60}`
     });

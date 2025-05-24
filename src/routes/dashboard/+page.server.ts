@@ -1,7 +1,7 @@
 export const prerender = true;
 import { happened_events, upcoming_events, organized_events, other_info } from '$lib/data/dashboard_texts';
 
-export const load = async ({ setHeaders }) => {
+export const load = async ({ setHeaders }: { setHeaders: (headers: Record<string, string>) => void }) => {
     setHeaders({
         'Cache-Control': `max-age=${60}, s-maxage=${60}`
     });

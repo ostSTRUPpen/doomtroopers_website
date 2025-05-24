@@ -2,18 +2,15 @@
 	import { gallery_types_names, getGalleryTypeDisplayName } from '$lib/data/static_data';
 import '../app.pcss';
 
-	export let data;
+	let {data, children} = $props();
 
-	let { sortedCurrentYearPages } = data;
-
-	$: ({ sortedCurrentYearPages } = data);
+	let { sortedCurrentYearPages } = $derived(data);
 
 	function getCurrentYearPagesByType(type: string) {
 		return sortedCurrentYearPages[type as keyof typeof sortedCurrentYearPages];
 	}
 	
 	const mainUrlPart = "doomtroopers"
-
 </script>
 
 <svelte:head>
@@ -62,7 +59,7 @@ import '../app.pcss';
 			</svg>
 		</label>
 		<main class="my-5">
-			<slot />
+			{@render children?.()}
 		</main>
 	</div>
 	<div class="drawer-side">

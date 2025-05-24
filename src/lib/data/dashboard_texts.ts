@@ -26,6 +26,6 @@ export const other_info: dashboardTextsData[] = [];
 
 export const happened_events: dashboardTextsData[] = []
 
-export const upcoming_events: dashboardTextsData[] = []   
+export const upcoming_events: dashboardTextsData[] = []
 
 export const organized_events: dashboardTextsData[] = [];

@@ -1,4 +1,4 @@
-export const gallery_types_names: string[]= ["akce", "treninky", "propagace"]
+export const gallery_types_names: string[] = ["akce", "treninky", "propagace"]
 
 const gallery_types_display_names = {
     akce: "Akce",
