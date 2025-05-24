@@ -40,8 +40,6 @@
 
 */
 
-// Možní jednou bude potřeba předělat, až bude fakt tuna textů... idk
-
 export const gallery_pages: Array<GalleryTextsDataValue> = [
   {
     page_name: "bojova_linie_kadlecak_4",
@@ -56,7 +54,7 @@ export const gallery_pages: Array<GalleryTextsDataValue> = [
     Pořadatel MRTKI, airsoftový tým ze Světlé nad Sázavou.<br/>
 <p>Opět se jelo za jednotky NATO, jejichž cílem bylo ubránit 3 body po dobu 3 hodin. První obrannou linii se podařilo tak dobře opevnit, že se stala téměř nedobytnou. Sice řady obránců postupně řídly, ale velmi pozvolně a na obsazení povstalci by bylo potřeba více času. </p>
 <p>Přesto byl zavelen ústup a jednotky NATO se stáhly na druhou obrannou linii, která nebyla tak dobře opevněna, přesto se nedařilo povstalcům prorazit. Byl zavelen útok s cílem zpět obsadit první linii. <p>
-<p>Útok byl dynamický a agresivní a v krátkém čase se podařilo dostat se na cca 30 m k první linii. Bohužel v tomto okamžiku vojákům NATO došly „životy“ (možnost 2x ošetření a pak konec) a naopak silně převládla výhoda povstalců na neomezený refreš životů. Hra v časovém limitu skončila vítězně pro jednotky NATO, povstalcům se nepodařilo dobýt všechny body zájmu. Bohužel hodně povstalců vůbec nedorazilo na akci a to zásadně ovlivnilo vývoj celé hry.<p>
+<p>Útok byl dynamický a agresivní a v krátkém čase se podařilo dostat se na cca 30 m k první linii. Bohužel v tomto okamžiku vojákům NATO došly „životy“ (možnost 2x ošetření a pak konec) a naopak silně převládla výhoda povstalců na neomezený refresh životů. Hra v časovém limitu skončila vítězně pro jednotky NATO, povstalcům se nepodařilo dobýt všechny body zájmu. Bohužel hodně povstalců vůbec nedorazilo na akci a to zásadně ovlivnilo vývoj celé hry.<p>
 Opět parádně zpracované rekvizity, bunkry a opevnění.
   `
   },
@@ -72,7 +70,7 @@ Opět parádně zpracované rekvizity, bunkry a opevnění.
     main_text: `
 <p>Na akci jsme dorazili v pátek, registrace a kontrola úsťovek zabrala cca 50 minut. Poté jsme se přesunuli do vesnice Ghorkar a postavili přístřešek. Vzhledem k tomu, že jsme byly příliš unavení z pracovního týdne, jsme se špuntem v uších zalezli do spacáků a šli spát.</p> <br/>
 Sobota <br/>
-<p>Zásadní změnou v organizaci hry bylo, že mise/úkol trval 6 hodin, aby mohli být povstalci více kreativní.  Úkolem bylo bránit dvě křižovatky s vlajkou, s možností vjezdu na kopec, kde byl postaven stan, hlavní bod zájmu ISAF. Pokud padne jedna křižovatka, může ISAF zaútočit na bod zájmu na kopci. Křižovatky s vlajkami byly obsazeny povstalci a nastalo 5-tihodinové čekání na ISAF, konečně dorazil a začala akce. Povstalci s přehledem odrazili útok a ve zbývajícím časovém limitu se ISAF nikam neposunul. Úkol splněn. Došlo k vyhlášení druhého 6-ti hodinového úkolu. Stejný scénář, jen kopec a křižovatky o kus dál. Po obsazení kopce a křižovatek nastalo opět nekonečné čekání na ISAF. Protože jsme byly z celodenního pospávání a poflakování mrzutí, vyrazili jsme na lov ISAFáků a konečně začal Kandahár, tak jak ho známe a chmury, ve smyslu nejslabšího Kandaháru, byly bojem zažehnány.</p> <br/>
+<p>Zásadní změnou v organizaci hry bylo, že mise/úkol trval 6 hodin, aby mohli být povstalci více kreativní.  Úkolem bylo bránit dvě křižovatky s vlajkou, s možností vjezdu na kopec, kde byl postaven stan, hlavní bod zájmu ISAF. Pokud padne jedna křižovatka, může ISAF zaútočit na bod zájmu na kopci. Křižovatky s vlajkami byly obsazeny povstalci a nastalo 5 hodinové čekání na ISAF, konečně dorazil a začala akce. Povstalci s přehledem odrazili útok a ve zbývajícím časovém limitu se ISAF nikam neposunul. Úkol splněn. Došlo k vyhlášení druhého 6-ti hodinového úkolu. Stejný scénář, jen kopec a křižovatky o kus dál. Po obsazení kopce a křižovatek nastalo opět nekonečné čekání na ISAF. Protože jsme byly z celodenního pospávání a poflakování mrzutí, vyrazili jsme na lov ISAF a konečně začal Kandahár, tak jak ho známe a chmury, ve smyslu nejslabšího Kandaháru, byly bojem zažehnány.</p> <br/>
 Neděle <br/>
 <p>Dopolední úkol najít a obsadit 2 body nedaleko základny ISAF. Frontální postup a útok povstalců lesem na ISAF byla lahůdka, dramaticky do bojů zasahovala vozidla s lafetovanými těžkými kulomety.</p> <br/>
 <p>Kandahár VII byl z našeho pohledu dobře organizačně zvládnutý, nezaznamenali jsme nějaké spory či konflikty, a tak to má být. Co hodnotíme negativně je jednotvárnost hlavních úkolů. Kreativitou se asi myslí, jít si svou vlastní cestou…</p>
