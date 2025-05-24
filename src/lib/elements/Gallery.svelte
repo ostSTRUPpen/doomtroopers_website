@@ -22,10 +22,10 @@
 </script>
 
 <dialog id="imageDisplay" class="modal" bind:this={imageDisplay}>
-	<div class="modal-box w-fit max-w-5xl">
-		<div>
-			<button class="btn float-start mb-4 ml-2 mt-3" onclick={() => currentImageIndex--}
-				>←</button
+	<div class="modal-box w-fit max-w-4xl max-h-screen h-screen">
+		<div class="justify-self-center">
+			<button class="btn float-start mb-4 ml-2 mt-3" onclick={() => currentImageIndex--}>
+				←</button
 			>
 			<button class="btn float-end mb-4 mr-2 mt-3" onclick={() => currentImageIndex++}
 				>→</button
@@ -36,7 +36,7 @@
 				>
 			</form>
 		</div>
-		<div>
+		<div class="justify-items-center">
 			<Image imageLink={imageLinks[currentImageIndex]} displayStyle={'gallery-main'} />
 		</div>
 		<div>

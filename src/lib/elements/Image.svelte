@@ -41,7 +41,8 @@
 
 	.gallery-main {
 		max-height: 700px;
-		width: auto;
+		width:auto;
+		object-fit: fill;
 	}
 
 	.none.none {
