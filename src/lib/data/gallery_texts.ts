@@ -1,7 +1,7 @@
 /**
  * Soubor obsahující data pro galerii
  * 
- * @file gallery_texts.ts
+ * Soubor: gallery_texts.ts
  */
 
 /* Boiler plate text

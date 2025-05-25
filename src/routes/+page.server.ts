@@ -1,6 +1,6 @@
 /**
  * Server side kód pro zobrazení domovské stránky
- * @file +page.server.ts
+ * Soubor: +page.server.ts
  */
 
 export const prerender = true;

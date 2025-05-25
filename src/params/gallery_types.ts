@@ -1,6 +1,6 @@
 /**
  * Soubor pro omezení validních URL parametrů specifikující typ galerie
- * @file gallery_types.ts
+ * Soubor: gallery_types.ts
  */
 
 import { gallery_types_names } from "$lib/data/static_data"

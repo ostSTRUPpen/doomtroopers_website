@@ -2,7 +2,7 @@
 	Element zajišťující galerii
 	- Zobrazení všech obrázků
 	- Přiblížení a procházení obrázků
-	@file Gallery.svelte
+	Soubor: Gallery.svelte
 -->
 
 <script lang="ts">

@@ -1,7 +1,7 @@
 /**
  * Soubor obsahující různá statická data
  * 
- * @file static_data.ts
+ * Soubor: static_data.ts
  */
 
 /**

@@ -1,6 +1,6 @@
 /**
  * Server side kód pro rozmístění na stránce
- * @file +layout.server.ts
+ * Soubor: +layout.server.ts
  */
 
 

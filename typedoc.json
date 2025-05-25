@@ -6,6 +6,6 @@
     "outputs": [
         {
             "name": "html",
-            "path": "./docs/code_docs",
+            "path": "./docs/",
         }]
 }

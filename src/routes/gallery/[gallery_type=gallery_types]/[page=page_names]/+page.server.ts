@@ -1,6 +1,6 @@
 /**
  * Server side kód pro zobrazení informací a galerie pro konkrétní událost
- * @file +page.server.ts
+ * Soubor: +page.server.ts
  */
 
 import type { Load } from '@sveltejs/kit';

@@ -1,6 +1,6 @@
 <!--
 	Zobrazení chyb
-	@file +error.svelte
+	Soubor: +error.svelte
 -->
 
 <script lang="ts">

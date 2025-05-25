@@ -1,6 +1,6 @@
 <!--
 	Element zobrazující obrázek
-	@file Image.svelte
+	Soubor: Image.svelte
 -->
 
 <script lang="ts">

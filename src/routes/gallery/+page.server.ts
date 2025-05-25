@@ -1,6 +1,6 @@
 /**
  * Server side kód pro zobrazení odkazů na galerie
- * @file +page.server.ts
+ * Soubor: +page.server.ts
  */
 
 export const prerender = true;

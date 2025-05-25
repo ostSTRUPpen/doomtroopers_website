@@ -1,6 +1,6 @@
 <!--
 	Rozmístění stárky
-	@file +layout.svelte
+	Soubor: +layout.svelte
 -->
 
 <script lang="ts">

@@ -1,6 +1,6 @@
 <!--
 	Zobrazení informací a galerie pro událost
-	@file +page.svelte
+	Soubor: +page.svelte
 -->
 
 <script lang="ts">

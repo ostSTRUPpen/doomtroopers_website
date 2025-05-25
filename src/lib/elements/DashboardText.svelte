@@ -1,6 +1,6 @@
 <!--
 	Element zajišťující zobrazení dat na nástěnce
-	@file DashboardText.svelte
+	Soubor: DashboardText.svelte
 -->
 
 <script lang="ts">

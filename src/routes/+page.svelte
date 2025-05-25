@@ -1,6 +1,6 @@
 <!--
 	Zobrazení domovské stránky
-	@file +page.svelte
+	Soubor: +page.svelte
 -->
 
 <script lang="ts">

@@ -1,6 +1,6 @@
 <!--
 	Element umožňující přechod do jednotlivých galerií
-	@file GalleryTypesDisplay.svelte
+	Soubor: GalleryTypesDisplay.svelte
 -->
 
 <div>

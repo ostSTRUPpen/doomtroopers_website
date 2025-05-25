@@ -1,6 +1,6 @@
 <!--
 	Element sloužící pro zobrazení informací o autorovi
-	@file AboutMe.svelte
+	Soubor: AboutMe.svelte
 -->
 
 <script lang="ts">

@@ -1,6 +1,6 @@
 /**
  * Soubor pro omezení validních URL parametrů pro název stránky (informací o akci)
- * @file page_names.ts
+ * Soubor: page_names.ts
  */
 
 import { gallery_pages } from "$lib/data/gallery_texts"

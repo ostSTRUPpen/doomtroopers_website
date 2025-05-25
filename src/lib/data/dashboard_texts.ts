@@ -1,7 +1,7 @@
 /**
  * Soubor obsahující data pro nástěnku
  * 
- * @file dashboard_texts.ts
+ * Soubor: dashboard_texts.ts
  */
 
 
