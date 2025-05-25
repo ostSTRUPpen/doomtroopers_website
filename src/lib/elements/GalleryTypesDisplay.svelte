@@ -1,3 +1,8 @@
+<!--
+	Element umožňující přechod do jednotlivých galerií
+	@file GalleryTypesDisplay.svelte
+-->
+
 <div>
 	<div
 		class="3xl:w-96 card card-compact float-start h-auto bg-base-300 shadow-xl md:w-52 lg:w-44 xl:w-64 2xl:w-80"
@@ -38,3 +43,5 @@
 		</a>
 	</div>
 </div>
+
+<!-- Konec souboru GalleryTypesDisplay.svelte -->

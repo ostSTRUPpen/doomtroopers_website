@@ -1,0 +1,11 @@
+{
+    "entryPoints": ["src/*"],
+    "entryPointStrategy": "expand",
+    "commentStyle": "jsdoc",
+    "excludeExternals": true,
+    "outputs": [
+        {
+            "name": "html",
+            "path": "./docs/code_docs",
+        }]
+}

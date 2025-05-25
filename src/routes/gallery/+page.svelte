@@ -1,3 +1,9 @@
+<!--
+	Zobrazení nástěnky
+	@file +page.svelte
+-->
+
+
 <script>
 	import GalleryTypesDisplay from '$lib/elements/GalleryTypesDisplay.svelte';
 </script>
@@ -7,3 +13,5 @@
 	<br />
 	<GalleryTypesDisplay />
 </div>
+
+<!-- Konec souboru +page.svelte -->

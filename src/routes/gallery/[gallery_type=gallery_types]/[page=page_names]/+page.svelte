@@ -1,3 +1,8 @@
+<!--
+	Zobrazení informací a galerie pro událost
+	@file +page.svelte
+-->
+
 <script lang="ts">
 	import Gallery from '$lib/elements/Gallery.svelte';
 
@@ -25,3 +30,5 @@
 		{/if}
 	</div>
 {/if}
+
+<!-- Konec souboru +page.svelte -->

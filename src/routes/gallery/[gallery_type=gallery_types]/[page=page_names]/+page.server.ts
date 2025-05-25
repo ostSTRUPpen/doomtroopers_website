@@ -1,3 +1,8 @@
+/**
+ * Server side kód pro zobrazení informací a galerie pro konkrétní událost
+ * @file +page.server.ts
+ */
+
 import type { Load } from '@sveltejs/kit';
 
 import { AZURE_CONNECTION_STRING } from '$env/static/private';
@@ -8,7 +13,11 @@ import { BlobServiceClient } from '@azure/storage-blob';
 
 const blobServiceClient = BlobServiceClient.fromConnectionString(AZURE_CONNECTION_STRING)
 
-
+/** Vybrání a zformátování odkazů na obrázky pro danou stránku
+ * 
+ * @param pageName Název stránky
+ * @returns List odkazů na dané obrázky
+ */
 async function getCorrectImageNames(pageName: string): Promise<string[]> {
 	const containerClient = blobServiceClient.getContainerClient('dt-images');
 	const correctImages = []
@@ -32,3 +41,5 @@ export const load: Load<{ page: string }, { pageData: GalleryTextsDataValue | un
 
 	return { pageData: data, pageImages: await getCorrectImageNames(pageName) };
 }
+
+/*** Konec souboru +page.server.ts ***/

@@ -1,3 +1,8 @@
+<!--
+	Zobrazení nástěnky
+	@file +page.svelte
+-->
+
 <script lang="ts">
 	import DashboardText from '$lib/elements/DashboardText.svelte';
 
@@ -37,3 +42,5 @@
 		<DashboardText header="Již proběhlé akce" texts={h_events} />
 	{/if}
 </div>
+
+<!-- Konec souboru +page.svelte -->

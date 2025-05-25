@@ -1,3 +1,8 @@
+<!--
+	Zobrazení tabulky událostí konkrétního typu
+	@file +page.svelte
+-->
+
 <script lang="ts">
 	import { page } from '$app/state';
 	import { getGalleryHeadersByType, getGalleryTypeDisplayName } from '$lib/data/static_data';
@@ -9,6 +14,10 @@
 		currentYear: number;
 	}>(data);
 
+	/** Funkce sloužící pro zvýraznění událostí z aktuálního roku
+	 * 
+	 * @param year Rok uložený v události
+	 */
 	function isFromCurrentYear(year: number): string {
 		return year === currentYear ? 'bg-accent bg-opacity-25' : '';
 	}
@@ -52,3 +61,5 @@
 		</table>
 	</div>
 {/if}
+
+<!-- Konec souboru +page.svelte -->

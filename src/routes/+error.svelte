@@ -1,3 +1,8 @@
+<!--
+	Zobrazení chyb
+	@file +error.svelte
+-->
+
 <script lang="ts">
 	import { page } from '$app/state';
 </script>
@@ -6,3 +11,5 @@
 	<h1 class="text-5xl">Došlo k chybě!</h1>
 	<h1 class="text-4xl">{page.status}: {page.error?.message}</h1>
 </div>
+
+<!-- Konec souboru +error.svelte -->

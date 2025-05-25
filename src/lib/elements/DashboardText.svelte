@@ -1,4 +1,13 @@
+<!--
+	Element zajišťující zobrazení dat na nástěnce
+	@file DashboardText.svelte
+-->
+
 <script lang="ts">
+	/**
+	 * header: Nadpis sady záznamu
+	 * texts: Texty pro konkrétní záznamy
+	 */
 	let { header, texts } = $props<{ header: string; texts: dashboardTextsData[] }>();
 </script>
 
@@ -32,3 +41,5 @@
 		</div>
 	</div>
 {/if}
+
+<!-- Konec souboru DashboardText.svelte -->

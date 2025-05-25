@@ -1,3 +1,9 @@
+/**
+ * Server side kód pro rozmístění na stránce
+ * @file +layout.server.ts
+ */
+
+
 import { gallery_pages } from '$lib/data/gallery_texts';
 
 export const load = (async () => {
@@ -8,6 +14,7 @@ export const load = (async () => {
 
     const currentYearPages_akce = [], currentYearPages_propagace = [], currentYearPages_treninky = [];
 
+    // Zobrazení akcí z aktuálního roku v postranním panelu
     for (let page of currentYearPages) {
         if (page.type === "akce") currentYearPages_akce.push(page)
         else if (page.type === "treninky") currentYearPages_treninky.push(page)
@@ -23,3 +30,5 @@ export const load = (async () => {
 
     return { sortedCurrentYearPages };
 })
+
+/*** Konec souboru +layout.server.ts */

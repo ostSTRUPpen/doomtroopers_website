@@ -1,3 +1,8 @@
+<!--
+	Rozmístění stárky
+	@file +layout.svelte
+-->
+
 <script lang="ts">
 	import { gallery_types_names, getGalleryTypeDisplayName } from '$lib/data/static_data';
 import '../app.pcss';
@@ -6,6 +11,7 @@ import '../app.pcss';
 
 	let { sortedCurrentYearPages } = $derived(data);
 
+	// Vybrání události z aktuálního roku dle typu události
 	function getCurrentYearPagesByType(type: string) {
 		return sortedCurrentYearPages[type as keyof typeof sortedCurrentYearPages];
 	}
@@ -98,3 +104,5 @@ import '../app.pcss';
 		</div>
 	</div>
 </div>
+
+<!-- Konec souboru +layout.svelte -->

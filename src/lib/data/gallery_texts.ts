@@ -1,18 +1,10 @@
-// Zprovoznit odkazy
-// Projít TODOčka
+/**
+ * Soubor obsahující data pro galerii
+ * 
+ * @file gallery_texts.ts
+ */
 
 /* Boiler plate text
-    page_name: "", // Využívá se v URL stránky a obrázků, pouze malá písmena a čísla, mezery nahrazené "-"" !
-    link_text: "", // Využívá se v bočním panelu, může mít jakýkoliv formát
-    type: "" // Třídění podle typu akce (akce, treninky, propagace)
-    display_date: "", // Datum akce zobrazené v tabulce a v nadpisu
-    day: ,  // Kvůli řazení v tabulkách, počátek akce u vícedenních
-    month: , // Kvůli řazení v tabulkách
-    year: , // Rok akce kvůli správnému zobrazení/skrytí odkazů v bočním panelu
-    title: "", // Nadpis akce na stránce s informacemi a v tabulce v galerií
-    main_text: "", // Popisek, podporuje formátování
-                        - HTML (zobrazuje se jako <article>, např.: <b> <br/> <p> <i> atd...)
-                        - CSS v podstatě taky, ale moc nedoporučuji
 
     {
         page_name: "",
@@ -26,6 +18,7 @@
         main_text: `
         `
     },
+    
 */
 
 /* Nahrávání obrázků
@@ -596,3 +589,5 @@ Sérum jsme v přátelském pokecu s domobranou stihli vypít ještě na Kótě 
       `
   },
 ]
+
+/*** Konec souboru gallery_texts.ts */
