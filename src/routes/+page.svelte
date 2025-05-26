@@ -1,3 +1,8 @@
+<!--
+	Zobrazení domovské stránky
+	Soubor: +page.svelte
+-->
+
 <script lang="ts">
 	import GalleryTypesDisplay from '$lib/elements/GalleryTypesDisplay.svelte';
 </script>
@@ -30,3 +35,5 @@
 		<GalleryTypesDisplay />
 	</div>
 </div>
+
+<!-- Konec souboru +page.svelte -->

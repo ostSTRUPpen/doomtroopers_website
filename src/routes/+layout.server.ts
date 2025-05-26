@@ -1,17 +1,24 @@
+/**
+ * Server side kód pro rozmístění na stránce
+ * Soubor: +layout.server.ts
+ */
+
+
 import { gallery_pages } from '$lib/data/gallery_texts';
 
 export const load = (async () => {
-    
+
     const currentYear = new Date().getFullYear();
 
-	const currentYearPages = gallery_pages.filter((p) => p.year === currentYear);
+    const currentYearPages = gallery_pages.filter((p) => p.year === currentYear);
 
-    const currentYearPages_akce = [], currentYearPages_propagace = [] , currentYearPages_treninky = [];
+    const currentYearPages_akce = [], currentYearPages_propagace = [], currentYearPages_treninky = [];
 
-    for(let page of currentYearPages){
-        if(page.type === "akce") currentYearPages_akce.push(page)
-        else if(page.type === "treninky") currentYearPages_treninky.push(page)
-        else if(page.type === "propagace") currentYearPages_propagace.push(page)
+    // Zobrazení akcí z aktuálního roku v postranním panelu
+    for (let page of currentYearPages) {
+        if (page.type === "akce") currentYearPages_akce.push(page)
+        else if (page.type === "treninky") currentYearPages_treninky.push(page)
+        else if (page.type === "propagace") currentYearPages_propagace.push(page)
         else console.error(page)
     }
 
@@ -21,5 +28,7 @@ export const load = (async () => {
         treninky: currentYearPages_treninky
     }
 
-    return {sortedCurrentYearPages};
+    return { sortedCurrentYearPages };
 })
+
+/*** Konec souboru +layout.server.ts */

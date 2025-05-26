@@ -1,16 +1,14 @@
+/**
+ * Soubor obsahující data pro nástěnku
+ * 
+ * Soubor: dashboard_texts.ts
+ */
+
+
 /*
-     {   
-        heading:"Trénink",  // Event name
-        display_date: "5.-6. 2. 2022", // Event date
-        day: 5, // First day of the event
-        month: 2, // ...
-        year:  2022, // ...
-        main_text: "", // Event description
-    },
-
-
-    // Boiler plate:
-    {   
+Boiler plate:
+    
+¨{   
         heading:"",
         display_date: "",
         day: ,
@@ -19,13 +17,26 @@
         main_text: "",
     },
 
-    
 */
 
+/**
+ * Obecné informace pro zobrazení na nástěnce
+ */
 export const other_info: dashboardTextsData[] = [];
 
+/**
+ * Proběhlé události
+ */
 export const happened_events: dashboardTextsData[] = []
 
-export const upcoming_events: dashboardTextsData[] = []   
+/**
+ * Nadcházející události
+ */
+export const upcoming_events: dashboardTextsData[] = []
 
+/**
+ * Klubem organizované události
+ */
 export const organized_events: dashboardTextsData[] = [];
+
+/*** Konec souboru dashboard_texts.ts */

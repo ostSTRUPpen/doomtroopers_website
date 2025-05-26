@@ -1,25 +1,34 @@
+<!--
+	Zobrazení informací a galerie pro událost
+	Soubor: +page.svelte
+-->
+
 <script lang="ts">
-	import Gallery from "$lib/elements/Gallery.svelte";
+	import Gallery from '$lib/elements/Gallery.svelte';
 
-    export let data;
+	let { data } = $props<{ pageData: GalleryTextsDataValue; pageImages: string[] }>();
 
-    let {pageData, pageImages} = data
-    $:({pageData, pageImages} = data)
+	let { pageData, pageImages } = $derived(data);
 </script>
 
 {#if pageData}
-    <div class="max-w-7xl ml-5 select-none">
-        <h2 class="text-3xl text-center pb-5 font-extrabold text-primary ">{@html pageData.title}, ({@html pageData.display_date.replaceAll(" ", "&nbsp;")})</h2>
-        {#if pageData.main_text}
-            <article class="mb-4 bg-base-200 p-4 rounded-box">{@html pageData.main_text}</article>
-        {/if}
-        {#if pageImages.length > 0}
-            <Gallery imageLinks={pageImages} />
-        {:else}
-             <div class="bg-base-200 p-4 rounded-box content-between text-center">
-                <p class="text-error sm:font-bold sm:text-xl">V galerii nebyly nalezeny žádné fotografie!</p>
-             </div>
-         
-        {/if}
-    </div>
+	<div class="ml-5 max-w-7xl select-none">
+		<h2 class="pb-5 text-center text-3xl font-extrabold text-primary">
+			{@html pageData.title}, ({@html pageData.display_date.replaceAll(' ', '&nbsp;')})
+		</h2>
+		{#if pageData.main_text}
+			<article class="mb-4 rounded-box bg-base-200 p-4">{@html pageData.main_text}</article>
+		{/if}
+		{#if pageImages.length > 0}
+			<Gallery imageLinks={pageImages} />
+		{:else}
+			<div class="content-between rounded-box bg-base-200 p-4 text-center">
+				<p class="text-error sm:text-xl sm:font-bold">
+					V galerii nebyly nalezeny žádné fotografie!
+				</p>
+			</div>
+		{/if}
+	</div>
 {/if}
+
+<!-- Konec souboru +page.svelte -->

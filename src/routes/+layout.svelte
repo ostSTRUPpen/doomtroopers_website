@@ -1,19 +1,22 @@
+<!--
+	Rozmístění stárky
+	Soubor: +layout.svelte
+-->
+
 <script lang="ts">
 	import { gallery_types_names, getGalleryTypeDisplayName } from '$lib/data/static_data';
 import '../app.pcss';
 
-	export let data;
+	let {data, children} = $props();
 
-	let { sortedCurrentYearPages } = data;
+	let { sortedCurrentYearPages } = $derived(data);
 
-	$: ({ sortedCurrentYearPages } = data);
-
+	// Vybrání události z aktuálního roku dle typu události
 	function getCurrentYearPagesByType(type: string) {
 		return sortedCurrentYearPages[type as keyof typeof sortedCurrentYearPages];
 	}
 	
 	const mainUrlPart = "doomtroopers"
-
 </script>
 
 <svelte:head>
@@ -62,7 +65,7 @@ import '../app.pcss';
 			</svg>
 		</label>
 		<main class="my-5">
-			<slot />
+			{@render children?.()}
 		</main>
 	</div>
 	<div class="drawer-side">
@@ -101,3 +104,5 @@ import '../app.pcss';
 		</div>
 	</div>
 </div>
+
+<!-- Konec souboru +layout.svelte -->
