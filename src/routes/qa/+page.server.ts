@@ -11,7 +11,7 @@ export const load = async ({ setHeaders }: { setHeaders: (headers: Record<string
         'Cache-Control': `max-age=${60}, s-maxage=${60}`
     });
 
-    return {qaaData}
+    return { qaaData }
 }
 
 /*** Konec souboru +page.server.ts ***/
