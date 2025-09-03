@@ -85,7 +85,7 @@ import '../app.pcss';
 					<ul class="bg-base-300 rounded-lg pb-5">
 						<li><a href="/" class="-mb-1">Domovská stránka</a></li>
 						<li><a href="/dashboard" class="-mb-1">Nástěnka</a></li>
-						<li><a href="/qa" class="-mb-0.5">Často kladené dotazy</a></li>
+						<li><a href="/qaa" class="-mb-0.5">Často kladené dotazy</a></li>
 						<li><a href="/gallery" class="-mb-0.5">Galerie</a></li>
 						<ul class="ms-5">
 							{#each gallery_types_names as gallery_types_name}
