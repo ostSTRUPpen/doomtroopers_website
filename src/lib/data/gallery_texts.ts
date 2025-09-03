@@ -35,6 +35,33 @@
 
 export const gallery_pages: Array<GalleryTextsDataValue> = [
   {
+    page_name: "tabor_mp_hb_2025",
+    link_text: "Tábor MP HB",
+    type: "propagace",
+    display_date: "4. 7. 2025",
+    day: 4,
+    month: 7,
+    year: 2025,
+    title: "Tábor MP HB",
+    main_text:
+      `
+        Střelnice pro děti z příměstského tábora Mladých strážníků MP HB. Střelnice a ukázka výstroje a výzbroje na airsoft.
+        `
+  },
+  {
+    page_name: "lizzard_xvi",
+    link_text: "Lizzard XVI",
+    type: "akce",
+    display_date: "30. 5.-1. 6. 2025",
+    day: 30,
+    month: 5,
+    year: 2025,
+    title: "Operace Lizzard&nbsp;XVI",
+    main_text: `
+        TODO
+        `
+  },
+  {
     page_name: "bojova_linie_kadlecak_4",
     link_text: "Bojová linie Kadlečák 4",
     type: "akce",
