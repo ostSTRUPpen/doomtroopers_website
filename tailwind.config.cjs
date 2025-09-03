@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config}*/
+// TODO nedáme barvu pozadí jako je na vizitce? Že by to bylo sladěné.
 const config = {
 	content: ['./src/routes/**/*.{svelte,js,ts}', './src/lib/elements/**/*.{svelte,js,ts}'],
 	plugins: [require('daisyui')],
@@ -14,7 +15,7 @@ const config = {
 
 					neutral: '#312235',
  
-					"base-100": "#a8a29e",
+					"base-100": "#d4b366ff",
 
 					info: '#69acd3',
 
