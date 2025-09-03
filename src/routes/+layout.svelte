@@ -68,7 +68,7 @@ import '../app.pcss';
 			{@render children?.()}
 		</main>
 	</div>
-	<div class="drawer-side">
+	<div class="drawer-side z-10">
 		<label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
 		<div class="menu min-h-full w-80 bg-base-200 p-4 text-base-content">
 			<!-- Sidebar content here -->

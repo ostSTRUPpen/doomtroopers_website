@@ -14,7 +14,7 @@
 	<h4 class="pb-0.5 text-2xl">{@html dataSection.header}</h4>
 
 	{#each dataSection.data as qaa}
-		<div class="collapse collapse-arrow mb-4 rounded-box bg-base-300">
+		<div class="collapse collapse-arrow mb-4 rounded-box bg-base-300 z-2">
 			<input type="checkbox" />
 			<div class="collapse-title font-semibold">{@html qaa.q}</div>
 			<div class="collapse-content text-sm">
