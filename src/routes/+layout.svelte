@@ -5,8 +5,8 @@
 
 <script lang="ts">
 	import { gallery_types_names, getGalleryTypeDisplayName } from '$lib/data/static_data';
-import '../app.pcss';
-
+	import "../app.css";
+	
 	let {data, children} = $props();
 
 	let { sortedCurrentYearPages } = $derived(data);

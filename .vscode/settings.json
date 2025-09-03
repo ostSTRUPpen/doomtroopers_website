@@ -1,4 +1,8 @@
 {
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+
 	"cSpell.words": [
         "airsoft",
         "airsoftové",
@@ -63,6 +67,7 @@
         "Pístovský",
         "pokecu",
         "Ppen",
+        "prefersdark",
         "prodlužováku",
         "Sarkání",
         "Scénářová",
