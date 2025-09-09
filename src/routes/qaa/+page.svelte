@@ -21,11 +21,10 @@
 			href="https://www.facebook.com/KvhAsDoomtroopers/"
 			target="_blank">KvhAsDoomtroopers</a
 		>
-		nebo na email <a class="link" href="mailto:info@doomtroopers.cz">info@doomtroopers.cz</a>, v
-		případě dotazů prosím nejdříve projděte časté dotazy.
+		nebo na email <a class="link" href="mailto:info@doomtroopers.cz">info@doomtroopers.cz</a>.
 	</p>
 	<p>
-		Pokud se Vaše zpráva týká webových stránek prosím využijte email adresu <a
+		Pokud se zpráva týká webových stránek prosím využijte email adresu <a
 			class="link"
 			href="mailto:web@doomtroopers.cz">web@doomtroopers.cz</a
 		>.
