@@ -57,6 +57,7 @@ export const gallery_pages: Array<GalleryTextsDataValue> = [
     month: 5,
     year: 2025,
     title: "Operace Lizzard&nbsp;XVI",
+    // TODO text a obrázky
     main_text: `
         TODO
         `
