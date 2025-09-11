@@ -48,20 +48,14 @@
 <!-- Přiblížení na konkrétní obrázek, a možnost procházet galerii k akci -->
 <dialog id="imageDisplay" class="modal" bind:this={imageDisplay}>
 	<div class="modal-box h-screen max-h-screen w-fit max-w-4xl">
-		<div class="justify-self-center">
-			<button class="btn float-start mb-4 ml-2 mt-3" onclick={() => currentImageIndex--}>
-				←</button
-			>
-			<button class="btn float-end mb-4 mr-2 mt-3" onclick={() => currentImageIndex++}
-				>→</button
-			>
+		<div class="relative mb-4 flex items-center justify-center space-x-4">
+			<button class="btn" onclick={() => currentImageIndex--}> ←</button>
 			<form method="dialog">
-				<button class="btn btn-circle btn-ghost btn-sm absolute right-2 top-2 text-xl"
-					>✕</button
-				>
+				<button class="btn btn-circle btn-ghost btn-sm text-xl">✕</button>
 			</form>
+			<button class="btn" onclick={() => currentImageIndex++}>→</button>
 		</div>
-		<div class="justify-items-center">
+		<div class="flex flex-grow items-center justify-center overflow-hidden">
 			<Image imageLink={imageLinks[currentImageIndex]} displayStyle={'gallery-main'} />
 		</div>
 		<div>
@@ -71,7 +65,7 @@
 </dialog>
 
 <!-- Zobrazení všech obrázků -->
-<div class="content-between rounded-box bg-base-200 p-4">
+<div class="rounded-box bg-base-200 content-between p-4">
 	<p class="pb-2 text-end align-baseline">Obrázků v galerii: {imageLinks.length}</p>
 	{#each imageLinks as pImage, imageIterator}
 		<button class="align-left float-start" onclick={() => displayImageModal(pImage)}>
