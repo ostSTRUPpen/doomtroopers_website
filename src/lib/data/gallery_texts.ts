@@ -57,9 +57,12 @@ export const gallery_pages: Array<GalleryTextsDataValue> = [
     month: 5,
     year: 2025,
     title: "Operace Lizzard&nbsp;XVI",
-    // TODO text a obrázky
     main_text: `
-        TODO
+        Lizzard XVI. 29.5-1.6.2025.
+<p>Pátek: 
+Prvním úkolem naší sedmičlenné skupiny povstalecké skupiny bylo obtěžovat ISAF v herní části jejich hlavní základny. Neuběhlo ani několik minut od začátku hry a došlo k těžkým bojům na cestě mezi ISAF základnou a vesnicí Bakhar. Podařilo se nám zastavit motorizovaný konvoj vojáků ISAF. Při ostrých střetech odcházeli isafáci po desítkách do pekla a povstali do ráje. </p> <p>Celý den se nesl v duchu přechodů herním prostorem a lovení vojáků ISAF. Byl pokus dobít předsunutou základnu, ale vzhledem k dobrým úkrytům vojáků a nedostatečného počtu povstalců byl náš útok odražen. Poté jsme vyrazili na zájmový bod (stan s vlajkou), kterou jsme dobili, vyvěsili povstaleckou vlajku a pak několik hodin drželi bod zájmu.</p>
+<p>Sobota a neděle byla ve znamení bránění nebo dobývání určených bodů v krajině.</p>
+<p>Celkové hodnocení Lizzardu 2025 na body, za splněné úkoly, - vyhráli povstalci.</p>  
         `
   },
   {
