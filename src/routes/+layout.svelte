@@ -5,8 +5,8 @@
 
 <script lang="ts">
 	import { gallery_types_names, getGalleryTypeDisplayName } from '$lib/data/static_data';
-import '../app.pcss';
-
+	import "../app.css";
+	
 	let {data, children} = $props();
 
 	let { sortedCurrentYearPages } = $derived(data);
@@ -49,7 +49,7 @@ import '../app.pcss';
 	<input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content mb-5 me-5 ms-3 mt-5 flex flex-col justify-center">
 		<!-- Page content here -->
-		<label for="my-drawer-2" class="btn btn-square btn-primary drawer-button lg:hidden">
+		<label for="my-drawer-2" class="btn btn-square btn-primary text-base-100 drawer-button lg:hidden">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -68,7 +68,7 @@ import '../app.pcss';
 			{@render children?.()}
 		</main>
 	</div>
-	<div class="drawer-side">
+	<div class="drawer-side z-10">
 		<label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
 		<div class="menu min-h-full w-80 bg-base-200 p-4 text-base-content">
 			<!-- Sidebar content here -->
@@ -85,6 +85,7 @@ import '../app.pcss';
 					<ul class="bg-base-300 rounded-lg pb-5">
 						<li><a href="/" class="-mb-1">Domovská stránka</a></li>
 						<li><a href="/dashboard" class="-mb-1">Nástěnka</a></li>
+						<li><a href="/qaa" class="-mb-0.5">Kontakt</a></li>
 						<li><a href="/gallery" class="-mb-0.5">Galerie</a></li>
 						<ul class="ms-5">
 							{#each gallery_types_names as gallery_types_name}

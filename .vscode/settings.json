@@ -1,12 +1,19 @@
 {
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+
 	"cSpell.words": [
         "airsoft",
+        "airsoftové",
+        "airsoftovou",
         "airsoftový",
         "airsoftových",
         "airsoftu",
         "Ashraf",
         "Asmar",
         "Asmaru",
+        "Bakhar",
         "Baqikhel",
         "Bhakkar",
         "Bhakkaru",
@@ -47,6 +54,7 @@
         "Morymu",
         "Motaki",
         "motorsvet",
+        "Motorsvět",
         "MRTKI",
         "nealko",
         "odstřelovačky",
@@ -61,6 +69,7 @@
         "Pístovský",
         "pokecu",
         "Ppen",
+        "prefersdark",
         "prodlužováku",
         "Sarkání",
         "Scénářová",

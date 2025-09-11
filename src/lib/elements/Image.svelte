@@ -56,9 +56,9 @@
 	 * Zobrazení v přiblíženém režimu
 	 */
 	.gallery-main {
-		max-height: 700px;
-		width:auto;
-		object-fit: fill;
+		max-height: 80vh;
+		max-width: 100%;
+		object-fit: scale-down;
 	}
 
 	/**

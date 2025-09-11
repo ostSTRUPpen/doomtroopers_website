@@ -35,6 +35,37 @@
 
 export const gallery_pages: Array<GalleryTextsDataValue> = [
   {
+    page_name: "tabor_mp_hb_2025",
+    link_text: "Tábor MP HB",
+    type: "propagace",
+    display_date: "4. 7. 2025",
+    day: 4,
+    month: 7,
+    year: 2025,
+    title: "Tábor MP HB",
+    main_text:
+      `
+        Střelnice pro děti z příměstského tábora Mladých strážníků MP HB. Střelnice a ukázka výstroje a výzbroje na airsoft.
+        `
+  },
+  {
+    page_name: "lizzard_xvi",
+    link_text: "Lizzard XVI",
+    type: "akce",
+    display_date: "30. 5.-1. 6. 2025",
+    day: 30,
+    month: 5,
+    year: 2025,
+    title: "Operace Lizzard&nbsp;XVI",
+    main_text: `
+        Lizzard XVI. 29.5-1.6.2025.
+<p>Pátek: 
+Prvním úkolem naší sedmičlenné skupiny povstalecké skupiny bylo obtěžovat ISAF v herní části jejich hlavní základny. Neuběhlo ani několik minut od začátku hry a došlo k těžkým bojům na cestě mezi ISAF základnou a vesnicí Bakhar. Podařilo se nám zastavit motorizovaný konvoj vojáků ISAF. Při ostrých střetech odcházeli isafáci po desítkách do pekla a povstali do ráje. </p> <p>Celý den se nesl v duchu přechodů herním prostorem a lovení vojáků ISAF. Byl pokus dobít předsunutou základnu, ale vzhledem k dobrým úkrytům vojáků a nedostatečného počtu povstalců byl náš útok odražen. Poté jsme vyrazili na zájmový bod (stan s vlajkou), kterou jsme dobili, vyvěsili povstaleckou vlajku a pak několik hodin drželi bod zájmu.</p>
+<p>Sobota a neděle byla ve znamení bránění nebo dobývání určených bodů v krajině.</p>
+<p>Celkové hodnocení Lizzardu 2025 na body, za splněné úkoly, - vyhráli povstalci.</p>  
+        `
+  },
+  {
     page_name: "bojova_linie_kadlecak_4",
     link_text: "Bojová linie Kadlečák 4",
     type: "akce",

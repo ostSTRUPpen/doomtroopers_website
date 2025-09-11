@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "doomtroopers";
+  default: true;
+  prefersdark: true;
+  color-scheme: dark;
+
+  --color-base-100: #ddc68fff;
+  --color-base-200: #cab074ff;
+  --color-base-300: #b89e61ff;
+  --color-base-content: #111827;
+
+  --color-primary: #111827;
+  --color-primary-content: #111827;
+
+  --color-secondary: #2f3c4c;
+  --color-secondary-content: #2f3c4c;
+
+  --color-accent: #56effa28;
+  --color-accent-content: #56effa28;
+
+  --color-neutral: #000000;
+  --color-neutral-content: #FFFFFF;
+
+  --color-info: #54b6eeff;
+  --color-info-content: #54b6eeff;
+
+  --color-success: #55e4c7ff;
+  --color-success-content: #55e4c7ff;
+
+  --color-warning: #ffc400ff;
+  --color-warning-content: #ffc400ff;
+
+  --color-error: #9f1239;
+  --color-error-content: #9f1239;
+
+  /* border radius */
+  --radius-selector: 1rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+
+  /* base sizes */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  /* border size */
+  --border: 1px;
+
+  /* effects */
+  --depth: 0;
+  --noise: 0;
+}

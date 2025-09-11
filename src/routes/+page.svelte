@@ -11,7 +11,7 @@
 	<div class="select-none">
 		<h2 class="pb-5 text-center text-5xl font-extrabold text-primary">Úvod</h2>
 		<br />
-		<h3 class="m-5 text-left text-3xl">Informace o nás</h3>
+		<h3 class="mt-5 mb-5 text-left text-3xl">Informace o nás</h3>
 		<p>
 			Jsme airsoft tým z&nbsp;Havlíčkova Brodu a&nbsp;okolí a&nbsp;působíme jako občanské sdružení KVH&nbsp;&&nbsp;AS
 			Doomtroopers z.s. od roku 2004.

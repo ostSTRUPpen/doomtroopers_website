@@ -33,12 +33,12 @@ export const happened_events: dashboardTextsData[] = []
  * Nadcházející události
  */
 export const upcoming_events: dashboardTextsData[] = [
-        {   
-        heading:"Motorsvět 2025",
+    {
+        heading: "Motorsvět 2025",
         display_date: "13. 9. 2025",
         day: 13,
         month: 9,
-        year:  2025,
+        year: 2025,
         main_text: "Více informací na <a class='link' target='_blank' href='https://www.besip-kv.cz/ponehodova-pece/'>www.besip-kv.cz/ponehodova-pece/</a>",
     },
 ]
