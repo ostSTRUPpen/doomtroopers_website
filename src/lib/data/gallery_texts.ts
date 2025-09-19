@@ -34,6 +34,19 @@
 */
 
 export const gallery_pages: Array<GalleryTextsDataValue> = [
+      {
+        page_name: "motorsvet_2025",
+        link_text: "MotorSvět",
+        type: "propagace",
+        display_date: "13. 9. 2025",
+        day: 13,
+        month: 9,
+        year: 2025,
+        title: "MotorSvět",
+        main_text: `
+        KVH & As Doomtroopers z.s. prezentoval airsoft, jakožto volnočasovou aktivitu, na akci MotorSvět 2025 v Havlíčkově Brodě (13.9.2025). Mezi často obdivované repliky zbraní patřil zejména samopal vz. 58, lehký kulomet ZB vz. 26, lehký kulomet MG-4 a odstřelovací pušky.
+        `
+    },
   {
     page_name: "tabor_mp_hb_2025",
     link_text: "Tábor MP HB",
