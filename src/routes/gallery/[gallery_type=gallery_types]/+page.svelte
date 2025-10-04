@@ -27,7 +27,7 @@
 	<div class="rounded-box bg-base-200 ml-5 max-w-7xl px-2 py-2">
 		<table class="table">
 			<caption class="mb-5 text-xl sm:text-2xl md:text-4xl lg:text-5xl"
-				>{getGalleryHeadersByType(page.params.gallery_type)}</caption
+				>{getGalleryHeadersByType(page.params.gallery_type ?? "")}</caption
 			>
 			<thead>
 				<tr>
