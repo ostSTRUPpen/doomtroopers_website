@@ -14,7 +14,7 @@
 				href="mailto:vojvol@post"
 				rel="author"
 				target="_blank"
- 				class="link-hover link-primary">Vojtěch Voldřich</a
+				class="link-hover link-primary">Vojtěch Voldřich</a
 			> <span class="text-secondary">(šnek)</span>
 		</p>
 	</div>

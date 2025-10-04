@@ -17,7 +17,7 @@
 		imageNumber?: number;
 		maxImageNumber?: number;
 	}>();
-	
+
 	/**
 	 * Odkaz na obrázek
 	 */

@@ -15,7 +15,7 @@
 	}>(data);
 
 	/** Funkce sloužící pro zvýraznění událostí z aktuálního roku
-	 * 
+	 *
 	 * @param year Rok uložený v události
 	 */
 	function isFromCurrentYear(year: number): string {
@@ -24,7 +24,7 @@
 </script>
 
 {#if data}
-	<div class="ml-5 max-w-7xl rounded-box bg-base-200 px-2 py-2">
+	<div class="rounded-box bg-base-200 ml-5 max-w-7xl px-2 py-2">
 		<table class="table">
 			<caption class="mb-5 text-xl sm:text-2xl md:text-4xl lg:text-5xl"
 				>{getGalleryHeadersByType(page.params.gallery_type)}</caption
@@ -41,7 +41,7 @@
 			<tbody>
 				{#each matchingPages as d}
 					<tr
-						class="hover:cursor-pointer hover:bg-base-300 {isFromCurrentYear(d.year)}"
+						class="hover:bg-base-300 hover:cursor-pointer {isFromCurrentYear(d.year)}"
 						onclick={() => (window.location.href = `/gallery/${d.type}/${d.page_name}`)}
 					>
 						<td>

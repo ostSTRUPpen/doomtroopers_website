@@ -1,9 +1,8 @@
 /**
  * Soubor obsahující data pro nástěnku
- * 
+ *
  * Soubor: dashboard_texts.ts
  */
-
 
 /*
 Boiler plate:
@@ -22,29 +21,21 @@ Boiler plate:
 /**
  * Obecné informace pro zobrazení na nástěnce
  */
-export const other_info: dashboardTextsData[] = [
-    
-];
+export const other_info: dashboardTextsData[] = [];
 
 /**
  * Proběhlé události
  */
-export const happened_events: dashboardTextsData[] = [
-
-]
+export const happened_events: dashboardTextsData[] = [];
 
 /**
  * Nadcházející události
  */
-export const upcoming_events: dashboardTextsData[] = [
-
-]
+export const upcoming_events: dashboardTextsData[] = [];
 
 /**
  * Klubem organizované události
  */
-export const organized_events: dashboardTextsData[] = [
-
-];
+export const organized_events: dashboardTextsData[] = [];
 
 /*** Konec souboru dashboard_texts.ts */

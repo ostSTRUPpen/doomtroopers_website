@@ -3,13 +3,12 @@
 	Soubor: +page.svelte
 -->
 
-
 <script>
 	import GalleryTypesDisplay from '$lib/elements/GalleryTypesDisplay.svelte';
 </script>
 
-<div class="ml-5 h-fit w-fit max-w-7xl content-between rounded-lg bg-base-200 p-5">
-	<h2 class="pb-5 text-center text-5xl font-extrabold text-primary">Galerie</h2>
+<div class="bg-base-200 ml-5 h-fit w-fit max-w-7xl content-between rounded-lg p-5">
+	<h2 class="text-primary pb-5 text-center text-5xl font-extrabold">Galerie</h2>
 	<br />
 	<GalleryTypesDisplay />
 </div>

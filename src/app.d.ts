@@ -23,40 +23,40 @@ declare global {
 		 * Název stránky v URL a příslušné složky s obrázky
 		 * smí obsahovat pouze malá písmena a čísla, mezery nahrazené "-"
 		 */
-		page_name: string,
+		page_name: string;
 		/**
 		 * Text odkazu v bočním panelu
 		 */
-		link_text: string,
+		link_text: string;
 		/**
 		 * Typ akce, využívá se pro třídění do galerií
 		 */
-		type: actionTypes,
+		type: actionTypes;
 		/**
 		 * Datum pro zobrazení
 		 */
-		display_date: string,
+		display_date: string;
 		/**
-		  * Den pro systémové zpracování
-		  */
-		day: number,
+		 * Den pro systémové zpracování
+		 */
+		day: number;
 		/**
 		 * Měsíc pro systémové zpracování
 		 */
-		month: number,
+		month: number;
 		/**
 		 * Rok pro systémové zpracování
 		 */
-		year: number,
+		year: number;
 		/**
 		 * Název akce pro nadpis stránky a tabulku v galerii
 		 */
-		title: string,
+		title: string;
 		/**
 		 * Podrobný popis akce, s podporou formátování
 		 */
-		main_text: string
-	}
+		main_text: string;
+	};
 
 	/**
 	 * Datový typ obsahující data potřebná pro záznam na nástěnku
@@ -65,28 +65,28 @@ declare global {
 		/**
 		 * Nadpis oznámení
 		 */
-		heading: string,
+		heading: string;
 		/**
 		 * Datum pro zobrazení
 		 */
-		display_date: string,
+		display_date: string;
 		/**
 		 * Den pro systémové zpracování
 		 */
-		day: number,
+		day: number;
 		/**
 		 * Měsíc pro systémové zpracování
 		 */
-		month: number,
+		month: number;
 		/**
 		 * Rok pro systémové zpracování
 		 */
-		year: number,
+		year: number;
 		/**
 		 * Text oznámení
 		 */
-		main_text: string,
-	}
+		main_text: string;
+	};
 
 	/**
 	 * Datový typ obsahující jednotlivé záznamy v q&a sekci
@@ -95,12 +95,12 @@ declare global {
 		/**
 		 * Otázka
 		 */
-		a: string,
+		a: string;
 		/**
 		 * Odpověď
 		 */
-		q: string
-	}
+		q: string;
+	};
 
 	/**
 	 * Datový typ určující sekce v q&a
@@ -109,12 +109,12 @@ declare global {
 		/**
 		 * Název sekce
 		 */
-		header: string,
+		header: string;
 		/**
 		 * Jednotlivé otázky a odpovědi
 		 */
-		data: qaaData[]
-	}
+		data: qaaData[];
+	};
 }
 
-export { };
+export {};

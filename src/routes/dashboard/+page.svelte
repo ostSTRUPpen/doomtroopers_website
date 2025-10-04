@@ -16,10 +16,10 @@
 	let { h_events, u_events, o_events, other } = $derived(data);
 </script>
 
-<div class="ml-5 h-fit max-w-7xl content-between rounded-lg bg-base-200 p-5">
-	<h2 class="pb-5 text-center text-5xl font-extrabold text-primary">Nástěnka pro veřejnost</h2>
+<div class="bg-base-200 ml-5 h-fit max-w-7xl content-between rounded-lg p-5">
+	<h2 class="text-primary pb-5 text-center text-5xl font-extrabold">Nástěnka pro veřejnost</h2>
 	{#if other.length === 0 && o_events.length === 0 && u_events.length === 0 && h_events.length === 0}
-		<p>Veřejná nástěnka je bohužel prázdná.</p> 
+		<p>Veřejná nástěnka je bohužel prázdná.</p>
 	{/if}
 	{#if other.length > 0}
 		<DashboardText header="" texts={other} />
