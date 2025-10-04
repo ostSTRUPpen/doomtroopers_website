@@ -1,5 +1,6 @@
 /**
  * Server side kód pro zobrazení odkazů na galerie
+ * 
  * Soubor: +page.server.ts
  */
 

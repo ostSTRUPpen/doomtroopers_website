@@ -1,5 +1,6 @@
 /**
  * Server side kód pro zobrazení informací a galerie pro konkrétní událost
+ * 
  * Soubor: +page.server.ts
  */
 

@@ -1,5 +1,6 @@
 /**
  * Server side kód pro často kladené dotazy a odpovědi
+ * 
  * Soubor: +page.server.ts
  */
 

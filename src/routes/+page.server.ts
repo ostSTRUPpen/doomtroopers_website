@@ -1,5 +1,6 @@
 /**
  * Server side kód pro zobrazení domovské stránky
+ * 
  * Soubor: +page.server.ts
  */
 
