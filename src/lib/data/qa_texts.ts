@@ -4,7 +4,7 @@
  * Soubor: qa_texts.ts
  */
 
-export const qaaData: Array<any> = [
+export const qaaData: Array<qaaSection> = [
     {
         header: "Airsoft",
         data: [

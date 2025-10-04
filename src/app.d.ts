@@ -87,6 +87,34 @@ declare global {
 		 */
 		main_text: string,
 	}
+
+	/**
+	 * Datový typ obsahující jednotlivé záznamy v q&a sekci
+	 */
+	type qaaData = {
+		/**
+		 * Otázka
+		 */
+		a: string,
+		/**
+		 * Odpověď
+		 */
+		q: string
+	}
+
+	/**
+	 * Datový typ určující sekce v q&a
+	 */
+	type qaaSection = {
+		/**
+		 * Název sekce
+		 */
+		header: string,
+		/**
+		 * Jednotlivé otázky a odpovědi
+		 */
+		data: qaaData[]
+	}
 }
 
 export { };

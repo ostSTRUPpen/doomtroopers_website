@@ -7,14 +7,14 @@
 	import QaATexts from '$lib/elements/QaATexts.svelte';
 
 	let { data } = $props<{
-		qaaData: any[];
+		qaaData: qaaSection[];
 	}>();
 
 	let { qaaData } = $derived(data);
 </script>
 
-<div class="ml-5 h-fit max-w-7xl content-between rounded-lg bg-base-200 p-5">
-	<h2 class="pb-5 text-center text-5xl font-extrabold text-primary">Kontakt</h2>
+<div class="bg-base-200 ml-5 h-fit max-w-7xl content-between rounded-lg p-5">
+	<h2 class="text-primary pb-5 text-center text-5xl font-extrabold">Kontakt</h2>
 	<p>
 		Kontaktovat nás můžete přes Facebook <a
 			class="link"
@@ -30,7 +30,7 @@
 		>.
 	</p>
 	<br />
-	<h2 class="pb-5 text-center text-5xl font-extrabold text-primary">Často kladené dotazy</h2>
+	<h2 class="text-primary pb-5 text-center text-5xl font-extrabold">Často kladené dotazy</h2>
 	{#if qaaData.length > 0}
 		{#each qaaData as qaaDataSection}
 			<QaATexts dataSection={qaaDataSection} />
