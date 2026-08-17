@@ -35,22 +35,22 @@
 
 export const gallery_pages: Array<GalleryTextsDataValue> = [
 	{
-        page_name: "kandahar_viii",
-        link_text: "Kandahar VIII",
-        type: "akce",
-        display_date: "17.-19.4.2026",
-        day: 17,
-        month: 4,
-        year: 2026,
-        title: "Kandahar VIII",
-        main_text: `
+		page_name: 'kandahar_viii',
+		link_text: 'Kandahar VIII',
+		type: 'akce',
+		display_date: '17.-19.4.2026',
+		day: 17,
+		month: 4,
+		year: 2026,
+		title: 'Kandahar VIII',
+		main_text: `
 		<p>Na akci jsme dorazili v pátek, registrace a kontrola úsťovek zabrala cca 40 minut. Poté jsme se přesunuli do vesnice Ghorkar a postavili přístřešek pro dva, třetí spal v autě a čtvrtý v malém stanu. Akce začala ve 20 hod, tak jsme vyrazili vstříc ISAFu. Okolo 23 hodiny přišel útok nočním viděním vybaveným protivníkem, což mělo za následek naši eliminaci. Ve vesnici jsme zalezli do spacáků. Kupodivu byl v noci přijatelný hluk, tak se dalo i spát.</p>
 <p>Sobota: 
 Ráno jsme vyrazili do lesa, vstříc ISAFu. Po různých přestřelkách s nepřítelem jsme se spojili s další malou skupinkou povstalců a společně jsme plnili úkol v podobě najití „mrtvé schránky“, její vyzvednutí a přesun skoro přes celé herní území do vesnice Ghokar. Při přesunu jsme narazili na nepřítele, pomocí krycí palby jsme se vyvázali a zvolili jiný směr pochodu. Čáru přes plán nám udělalo obsazení lesa mezi Kandahárem a Ghokarem. Naštěstí se připojilo spoustu povstalců z Kandaháru a pomocí nich byla po cca 40 min intenzivních bojů proražena linie ISAF. Stálo to ale mnoho povstaleckých životů. Naštěstí byla schránka dopravena do určené vesnice, úkol splněn, povstalcům se zkrátil čas refreše. Po občerstvení a doplnění munice jsme opět vyrazili do bojů.</p>
 <p>Neděle: Dopoledním úkolem bylo dobít předsunutou základnu ISAF. Už na kraji lesa v okolí Kandaháru kladl ISAF tuhý odpor a povstalci se velmi pomalu a za velkých ztrát postupně probojovali až k základně. Zde došlo na opotřebovací boj, kdy početní převaha povstalců zvítězila. Musíme pochválit vojáky ISAF za houževnatý odpor.</p>
 <p>Kandahár VIII byl z našeho pohledu dobře organizačně zvládnutý, nezaznamenali jsme nějaké zbytečné spory či konflikty. Hlavní a vedlejší úkoly byly dobře promyšlené a bylo z čeho vybírat.</p>
         `
-    },
+	},
 	{
 		page_name: 'motorsvet_2025',
 		link_text: 'MotorSvět',

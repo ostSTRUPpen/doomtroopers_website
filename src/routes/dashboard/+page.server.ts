@@ -1,6 +1,6 @@
 /**
  * Server side kód pro nástěnku
- * 
+ *
  * Soubor: +page.server.ts
  */
 

@@ -1,6 +1,6 @@
 /**
  * Soubor přidávající vercel analytics
- * 
+ *
  * Soubor: +layout.ts
  */
 

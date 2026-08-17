@@ -68,5 +68,3 @@
 		display: none;
 	}
 </style>
-
-<!-- Konec souboru Image.svelte -->
