@@ -16,7 +16,7 @@ export const load = async () => {
 		currentYearPages_treninky = [];
 
 	// Zobrazení akcí z aktuálního roku v postranním panelu
-	for (let page of currentYearPages) {
+	for (const page of currentYearPages) {
 		if (page.type === 'akce') currentYearPages_akce.push(page);
 		else if (page.type === 'treninky') currentYearPages_treninky.push(page);
 		else if (page.type === 'propagace') currentYearPages_propagace.push(page);

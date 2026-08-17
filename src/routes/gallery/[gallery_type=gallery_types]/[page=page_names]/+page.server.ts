@@ -22,7 +22,7 @@ const blobServiceClient = BlobServiceClient.fromConnectionString(AZURE_CONNECTIO
 async function getCorrectImageNames(pageName: string): Promise<string[]> {
 	const containerClient = blobServiceClient.getContainerClient('dt-images');
 	const correctImages = [];
-	let blobs = await containerClient.listBlobsFlat();
+	const blobs = await containerClient.listBlobsFlat();
 	for await (const blob of blobs) {
 		const blobPath = blob.name.split('/');
 		if (blobPath[0] === pageName) {

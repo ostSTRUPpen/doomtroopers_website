@@ -18,9 +18,10 @@
 {#if pageData}
 	<div class="ml-5 max-w-7xl select-none">
 		<h2 class="text-primary pb-5 text-center text-3xl font-extrabold">
-			{@html pageData.title}, ({@html pageData.display_date.replaceAll(' ', '&nbsp;')})
+			{pageData.title}, (<span class="whitespace-nowrap">{pageData.display_date}</span>)
 		</h2>
 		{#if pageData.main_text}
+			<!-- eslint-disable-next-line svelte/no-at-html-tags -- Důvěryhodný HTML obsah z lokálních dat galerie. -->
 			<article class="rounded-box bg-base-200 mb-4 p-4">{@html pageData.main_text}</article>
 		{/if}
 		{#if pageImages.length > 0}

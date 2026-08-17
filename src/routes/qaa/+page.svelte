@@ -32,7 +32,7 @@
 	<br />
 	<h2 class="text-primary pb-5 text-center text-5xl font-extrabold">Často kladené dotazy</h2>
 	{#if qaaData.length > 0}
-		{#each qaaData as qaaDataSection}
+		{#each qaaData as qaaDataSection (qaaDataSection.header)}
 			<QaATexts dataSection={qaaDataSection} />
 		{/each}
 	{:else}

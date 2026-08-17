@@ -4,6 +4,7 @@
 -->
 
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { gallery_types_names, getGalleryTypeDisplayName } from '$lib/data/static_data';
 	import '../app.css';
 
@@ -86,7 +87,7 @@
 			<!-- Sidebar content here -->
 			<div class="float-left mr-10 ml-3">
 				<div class="pt-2 pb-5">
-					<a href="/"><img src="/doomtroopers.png" alt="Logo" /></a>
+					<a href={resolve('/')}><img src="/doomtroopers.png" alt="Logo" /></a>
 					<ul class="bg-base-300 list-none rounded-md">
 						<li class="ml-2 text-lg">KVH Doomtroopers, z.s.</li>
 						<li class="-inset-x-1 -mb-1 list-item">
@@ -101,24 +102,33 @@
 				</div>
 				<div>
 					<ul class="bg-base-300 rounded-lg pb-5">
-						<li><a href="/" class="-mb-1">Domovská stránka</a></li>
-						<li><a href="/dashboard" class="-mb-1">Nástěnka</a></li>
-						<li><a href="/qaa" class="-mb-0.5">Kontakt</a></li>
-						<li><a href="/gallery" class="-mb-0.5">Galerie</a></li>
+						<li><a href={resolve('/')} class="-mb-1">Domovská stránka</a></li>
+						<li><a href={resolve('/dashboard')} class="-mb-1">Nástěnka</a></li>
+						<li><a href={resolve('/qaa')} class="-mb-0.5">Kontakt</a></li>
+						<li><a href={resolve('/gallery')} class="-mb-0.5">Galerie</a></li>
 						<ul class="ms-5">
-							{#each gallery_types_names as gallery_types_name}
+							{#each gallery_types_names as gallery_types_name (gallery_types_name)}
 								<li>
-									<a href="/gallery/{gallery_types_name}" class="mt-0.5 -mb-1"
+									<a
+										href={resolve('/gallery/[gallery_type=gallery_types]', {
+											gallery_type: gallery_types_name
+										})}
+										class="mt-0.5 -mb-1"
 										>{getGalleryTypeDisplayName(gallery_types_name)}</a
 									>
 								</li>
 								<ul class="ms-5">
-									{#each getCurrentYearPagesByType(gallery_types_name) as galleryPage}
+									{#each getCurrentYearPagesByType(gallery_types_name) as galleryPage (galleryPage.page_name)}
 										<li>
 											<a
 												class="-mb-1"
-												href="/gallery/{gallery_types_name}/{galleryPage.page_name}"
-												>{galleryPage.link_text}</a
+												href={resolve(
+													'/gallery/[gallery_type=gallery_types]/[page=page_names]',
+													{
+														gallery_type: gallery_types_name,
+														page: galleryPage.page_name
+													}
+												)}>{galleryPage.link_text}</a
 											>
 										</li>
 									{/each}

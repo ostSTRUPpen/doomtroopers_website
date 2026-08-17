@@ -39,21 +39,21 @@
 				</tr>
 			</thead>
 			<tbody>
-				{#each matchingPages as d}
+				{#each matchingPages as d (d.page_name)}
 					<tr
 						class="hover:bg-base-300 hover:cursor-pointer {isFromCurrentYear(d.year)}"
 						onclick={() => (window.location.href = `/gallery/${d.type}/${d.page_name}`)}
 					>
 						<td>
-							{@html d.title}
+							{d.title}
 						</td>
 						{#if page.params.gallery_type === 'all'}
 							<td>
 								{getGalleryTypeDisplayName(d.type)}
 							</td>
 						{/if}
-						<td>
-							{@html d.display_date}
+						<td class="whitespace-nowrap">
+							{d.display_date}
 						</td>
 					</tr>
 				{/each}

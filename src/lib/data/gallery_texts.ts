@@ -85,7 +85,7 @@ Ráno jsme vyrazili do lesa, vstříc ISAFu. Po různých přestřelkách s nep�
 		day: 30,
 		month: 5,
 		year: 2025,
-		title: 'Operace Lizzard&nbsp;XVI',
+		title: 'Operace Lizzard\u00A0XVI',
 		main_text: `
 <p>Pátek: 
 Prvním úkolem naší sedmičlenné skupiny povstalecké skupiny bylo obtěžovat ISAF v herní části jejich hlavní základny. Neuběhlo ani několik minut od začátku hry a došlo k těžkým bojům na cestě mezi ISAF základnou a vesnicí Bakhar. Podařilo se nám zastavit motorizovaný konvoj vojáků ISAF. Při ostrých střetech odcházeli isafáci po desítkách do pekla a povstali do ráje. </p> <p>Celý den se nesl v duchu přechodů herním prostorem a lovení vojáků ISAF. Byl pokus dobít předsunutou základnu, ale vzhledem k dobrým úkrytům vojáků a nedostatečného počtu povstalců byl náš útok odražen. Poté jsme vyrazili na zájmový bod (stan s vlajkou), kterou jsme dobili, vyvěsili povstaleckou vlajku a pak několik hodin drželi bod zájmu.</p>
@@ -101,12 +101,12 @@ Prvním úkolem naší sedmičlenné skupiny povstalecké skupiny bylo obtěžov
 		day: 18,
 		month: 4,
 		year: 2025,
-		title: 'Bojová linie Kadlečák&nbsp;4',
+		title: 'Bojová linie Kadlečák\u00A04',
 		main_text: `
     Pořadatel MRTKI, airsoftový tým ze Světlé nad Sázavou.<br/>
 <p>Opět se jelo za jednotky NATO, jejichž cílem bylo ubránit 3 body po dobu 3 hodin. První obrannou linii se podařilo tak dobře opevnit, že se stala téměř nedobytnou. Sice řady obránců postupně řídly, ale velmi pozvolně a na obsazení povstalci by bylo potřeba více času. </p>
-<p>Přesto byl zavelen ústup a jednotky NATO se stáhly na druhou obrannou linii, která nebyla tak dobře opevněna, přesto se nedařilo povstalcům prorazit. Byl zavelen útok s cílem zpět obsadit první linii. <p>
-<p>Útok byl dynamický a agresivní a v krátkém čase se podařilo dostat se na cca 30 m k první linii. Bohužel v tomto okamžiku vojákům NATO došly „životy“ (možnost 2x ošetření a pak konec) a naopak silně převládla výhoda povstalců na neomezený refresh životů. Hra v časovém limitu skončila vítězně pro jednotky NATO, povstalcům se nepodařilo dobýt všechny body zájmu. Bohužel hodně povstalců vůbec nedorazilo na akci a to zásadně ovlivnilo vývoj celé hry.<p>
+<p>Přesto byl zavelen ústup a jednotky NATO se stáhly na druhou obrannou linii, která nebyla tak dobře opevněna, přesto se nedařilo povstalcům prorazit. Byl zavelen útok s cílem zpět obsadit první linii. </p>
+<p>Útok byl dynamický a agresivní a v krátkém čase se podařilo dostat se na cca 30 m k první linii. Bohužel v tomto okamžiku vojákům NATO došly „životy“ (možnost 2x ošetření a pak konec) a naopak silně převládla výhoda povstalců na neomezený refresh životů. Hra v časovém limitu skončila vítězně pro jednotky NATO, povstalcům se nepodařilo dobýt všechny body zájmu. Bohužel hodně povstalců vůbec nedorazilo na akci a to zásadně ovlivnilo vývoj celé hry.</p>
 Opět parádně zpracované rekvizity, bunkry a opevnění.
   `
 	},
@@ -118,7 +118,7 @@ Opět parádně zpracované rekvizity, bunkry a opevnění.
 		day: 11,
 		month: 4,
 		year: 2025,
-		title: 'Operace Kandahar&nbsp;VII',
+		title: 'Operace Kandahar\u00A0VII',
 		main_text: `
 <p>Na akci jsme dorazili v pátek, registrace a kontrola úsťovek zabrala cca 50 minut. Poté jsme se přesunuli do vesnice Ghorkar a postavili přístřešek. Vzhledem k tomu, že jsme byly příliš unavení z pracovního týdne, jsme se špuntem v uších zalezli do spacáků a šli spát.</p> <br/>
 Sobota <br/>
@@ -153,18 +153,18 @@ Straně NATO se podařilo po urputných bojích postupně obsadit všechny pozic
 		day: 20,
 		month: 8,
 		year: 2020,
-		title: 'Operace Lizzard&nbsp;XI',
+		title: 'Operace Lizzard\u00A0XI',
 		main_text: `
         <b>Čtvrtek 20.8.:</b><br/>
 <p>Odjezd členů KVH Doomtroopers z HB v počtu 5 bojovníků povstalecké skupiny – Cloši, Sniper, Lulu, Pavel, Mory. Po registraci započala stavba obydlí a technického zázemí v Heratu.</p>
 <br/>
-<b>Pátek 21.8.:</b> </br>
-<p>Při měření a kontrole předepsaných úsťových rychlostí zbraní nás překvapila neohlášená úprava pořadatele v podmínkách měření pro HPA a plynovek. Nehodnotilo podle Joulů ale m/s což bylo v rozporu se zaslanými instrukcemi pořadatelem na email.<p/>
+<b>Pátek 21.8.:</b> <br/>
+<p>Při měření a kontrole předepsaných úsťových rychlostí zbraní nás překvapila neohlášená úprava pořadatele v podmínkách měření pro HPA a plynovek. Nehodnotilo podle Joulů ale m/s což bylo v rozporu se zaslanými instrukcemi pořadatelem na email.</p>
 <br/><p>Úkol 1: Opuštěná vesnice. Úkolem bylo nalézt bod zájmu, obsadit a udržet. Pokus přesunout se pěšky z Heratu byl zmařen nepřátelskými jednotkami hlídajícími křižovatku u vesnice. Následovalo stažení a přesun vozidlem na bod výsadku Bravo 3 i s ostatními bojovými uskupeními vesnice Herat. Jednotka se ve formaci „V“ vydala směrem Velký jelení vrch. Po nalezení bodu zájmu byl zaujat obranný perimetr v předsunuté pozici na úpatí vrcholu Jelení vrch. Bod zájmu byl úspěšně držen do stanoveného časového limitu. Celá akce se odehrála bez kontaktu naší jednotky s nepřítelem.
 </p><br/><p>    Úkol 2: Poutní místo - obrana. V odpoledních hodinách byl stanoven další úkol. Obrana bodu Poutní místo před útokem jednotek ISAF a vesnice nepřátelských povstalců z Bhakkaru. Po zřízení obranného perimetru bodu Poutní místo se objevila mechanizovaná pěchota ISAF, která zaujala postavení a vyčkávala. Před západem slunce započal nepřátelský útok ze SZ a SV. Za cenu těžkých ztrát ve vlastních řadách (Sniper, Lulu, Mory, Cloši) se dařilo nepříteli způsobovat velké ztráty vozidel a pěchoty. Poslední přeživší Pavel převzal organizaci místa a pod rouškou tmy provedl s ostatními povstalci obchvatný útok z levého křídla. Díky této akci zůstal bod Poutní místo v našem držení. Následoval návrat do vesnice a konec bojových aktivit pro tento den. Bohužel pozdě večer došlo k úrazu Ládi, kdy při pádu do jámy na kraji lesa vedle místa táboření, došlo k natažení vazů pravého hlezna (vyvrtnutý kotník) a dále nebyl schopen bojových činností.
 </p>
 <br/>
-<b>Sobota 22.8.:</b></br>
+<b>Sobota 22.8.:</b><br/>
 <p>K naší jednotce byli přiděleni 3 členové na pozici střelec. Tato skupinka z okolí Karlštejna (zdravíme ???? ) doplňovala naše stavy po celo dobu akce.</p>
 <br/>
 <p>
@@ -179,7 +179,7 @@ Straně NATO se podařilo po urputných bojích postupně obsadit všechny pozic
 Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, který řídil auto. Do této chvíle Láďa neplnil bojové úkoly s jednotkou. Staral se o provoz základny, vařil válečníkům kafe v džezvě a prováděl odposlech radioprovozu. </p>
 <br/><p>Úkol 6: Noční mise – obrana bodu Bravo 3. Této mise se účastnil pouze Cloši a jeden člen z posilové skupiny (z okolí Karlštejna). Cílem bylo ubránit křižovatku na bodě výsadku od 1:00 do 3:00 ráno (neděle). Přesun na místo proběhl bez problému, byl zaujat obranný perimetr, 4 členové skupiny s nočním viděním hlídkovali v okolí. Nepřítel se neukázal, a tak byl bod úspěšně udržen. Povstalci s nočním viděním se vydali k nepřátelské vesnici, kde mučednicky padli ve výbušných nástrahách a mohli si jít užívat 72 panen.</p>
 <br/>
-<b>Neděle 23.8:</b></br>
+<b>Neděle 23.8:</b><br/>
 <p>Následoval poslední úkol pro naší vesnici Herat, kterého se naše skupina nezúčastnila a vydala domů s ohledem na některé spěchající bojovníky, ve zbylém počtu 4 špinavých a válkou zbídačených povstaleckých veteránů. Pouze naše sousední posilová skupina 3 mužů vyrazila do boje, těm náleží patřičné uznání.
 </p>
 `
@@ -206,7 +206,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 2,
 		month: 7,
 		year: 2021,
-		title: 'Operace Taškent&nbsp;XIII',
+		title: 'Operace Taškent\u00A0XIII',
 		main_text: `
         <p>Boje povstalců vs NATO o pozice, které byly značeny vlajkami. Cílem bylo obsadit a co nejdéle udržet příslušný bod v terénu. Po součtu všech bodů, dle obsazenosti vlajek, vyhráli povstalci.
         </p>
@@ -234,7 +234,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 20,
 		month: 8,
 		year: 2021,
-		title: 'Operace Lizzard&nbsp;XII',
+		title: 'Operace Lizzard\u00A0XII',
 		main_text: `
         <b>Pátek</b><br/>
 <p>
@@ -280,7 +280,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 8,
 		month: 10,
 		year: 2021,
-		title: 'Operace Kandahár&nbsp;III',
+		title: 'Operace Kandahár\u00A0III',
 		main_text: `
         <p>
   Akce Kandahár III byl týmem DT pojat jako méně komfortní na zázemí oproti Lizzardu, takže se nebral stan, lehátka, židličky ani stoličky, ale spalo se pod plachtou, na zemi, s omezenou možností vaření.
@@ -317,7 +317,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 12,
 		month: 3,
 		year: 2022,
-		title: 'Pístovský&nbsp;votvírák',
+		title: 'Pístovský\u00A0votvírák',
 		main_text: `
         <p>Jednodenní akce v Pístovské Aréně. Dvě skupiny proti sobě, červení proti modrým. Cílem bylo v herním prostoru najít zlaté cihly a dopravit je na svou základnu. Protivník (modrý tým) byl houževnatý a dal nám chvílemi slušně zabrat. Přesto se červeným podařilo sesbírat více zlatých cihel a jako bonus se nám podařilo ze základny modrých odcizit dvě zlaté cihly. Akci hodnotíme jako povedenou, líbila se nám a určitě přijedeme zase.</p>
         `
@@ -330,7 +330,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 22,
 		month: 4,
 		year: 2022,
-		title: 'Operace Kandahár&nbsp;IV',
+		title: 'Operace Kandahár\u00A0IV',
 		main_text: `
         <p>Podařená akce, jen je škoda, že nás z týmu bylo málo.</p>
         `
@@ -343,7 +343,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 27,
 		month: 5,
 		year: 2022,
-		title: 'Operace Lizzard&nbsp;XIII',
+		title: 'Operace Lizzard\u00A0XIII',
 		main_text: `
         <p>Tradiční pohodová akce, kam jezdíme za povstalce. Letos byla bohužel malá účast našich členů. Akce proběhla v malebné pískovcové krajině, nádherné skály, výhledy a hluboké strže, opravdu luxusní terén.
         </p> <br/>
@@ -359,7 +359,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 21,
 		month: 4,
 		year: 2023,
-		title: 'Operace Kandahár&nbsp;V',
+		title: 'Operace Kandahár\u00A0V',
 		main_text: `
         <p>
   Letošní Kandahár jsme opět jeli za povstalce. 
@@ -396,9 +396,9 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 13,
 		month: 5,
 		year: 2023,
-		title: 'Invaze&nbsp;II',
+		title: 'Invaze\u00A0II',
 		main_text: `
-        <p>Pístov Aréna (Jihlava)<p>
+	        <p>Pístov Aréna (Jihlava)</p>
 <p>Rozdělení na červené a modré, postupné obsazování vlajek. Chvílemi slušná řežba. Dobrá organizace, nebyl problém s nepřiznáváním. Hru jsme si užili
    </p>     `
 	},
@@ -410,7 +410,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 29,
 		month: 7,
 		year: 2023,
-		title: 'Bojová linie Kadlečák&nbsp;2',
+		title: 'Bojová linie Kadlečák\u00A02',
 		main_text: `
         <p>Pořadatel Airsoft klub Světlá nad Sázavou.</p> <br/>
 <p>Jelo se za jednotky NATO, jejichž cílem bylo ubránit 4 body po dobu 2 hodin. V tomto časovém úseku se protivníkovi (povstalcům) podařilo dobít pouze dva. Po přestávce začala odpolední bitva o vlajku, ale po cca 15 min nás všechny z lesa vyhnala průtrž mračen a blesky. Akce byla dynamická, náročná, organizačně dobře zvládnutá, takže za nás spokojenost a těšíme se na příští ročník.
@@ -441,7 +441,7 @@ Po této misi nás opustil zraněný Láďa, zážitky nabitý Šnek a Lulu, kte
 		day: 26,
 		month: 4,
 		year: 2024,
-		title: 'Kandahár&nbsp;VI',
+		title: 'Kandahár\u00A0VI',
 		main_text: `
         <b>Pátek</b><br/>
 <p>
@@ -473,7 +473,7 @@ Sobotní noční akce jsme se neúčastnili.
 		day: 24,
 		month: 5,
 		year: 2024,
-		title: 'Lizzard&nbsp;XIV',
+		title: 'Lizzard\u00A0XIV',
 		main_text: `
         <b>Pátek:</b><br/>
 <p>
@@ -627,7 +627,7 @@ Sérum jsme v přátelském pokecu s domobranou stihli vypít ještě na Kótě 
 		day: 3,
 		month: 8,
 		year: 2024,
-		title: 'Bojová linie Kadlečák&nbsp;3',
+		title: 'Bojová linie Kadlečák\u00A03',
 		main_text: `
         <p>Bojová linie Kadlečák 3, dne 3.8.2024, pořadatel Airsoft klub Světlá nad Sázavou.</p> <br/>
         <p>Jelo se za jednotky NATO, jejíž cílem bylo ubránit 4 body po dobu 3 hodin. V tomto časovém úseku se protivníkovi (povstalcům) podařilo dobít tři. Rozdělení limitů na výkony zb. přidávalo hře na realističnosti, kdy jako obránci jsme měli respekt z odstřelovačů. Akce proběhla bez problémů a byla organizačně dobře zvládnutá, takže za nás spokojenost a těšíme se na příští ročník.

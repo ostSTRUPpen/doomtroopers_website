@@ -56,7 +56,7 @@
 			<button class="btn" onclick={() => currentImageIndex++}>→</button>
 		</div>
 		<div class="flex flex-grow items-center justify-center overflow-hidden">
-			<Image imageLink={imageLinks[currentImageIndex]} displayStyle={'gallery-main'} />
+			<Image imageLink={imageLinks[currentImageIndex]} displayStyle="gallery-main" />
 		</div>
 		<div>
 			<p class="text-center align-middle">{currentImageIndex + 1}/{imageLinks.length}</p>
@@ -67,11 +67,11 @@
 <!-- Zobrazení všech obrázků -->
 <div class="rounded-box bg-base-200 content-between p-4">
 	<p class="pb-2 text-end align-baseline">Obrázků v galerii: {imageLinks.length}</p>
-	{#each imageLinks as pImage, imageIterator}
+	{#each imageLinks as pImage, imageIterator (pImage)}
 		<button class="align-left float-start" onclick={() => displayImageModal(pImage)}>
 			<Image
 				imageLink={pImage}
-				displayStyle={'gallery-list'}
+				displayStyle="gallery-list"
 				imageNumber={imageIterator + 1}
 				maxImageNumber={imageLinksLength}
 			/>

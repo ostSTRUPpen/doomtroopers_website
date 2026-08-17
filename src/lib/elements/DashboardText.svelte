@@ -11,35 +11,23 @@
 	let { header, texts } = $props<{ header: string; texts: dashboardTextsData[] }>();
 </script>
 
-{#if header === ''}
+<div>
+	{#if header !== ''}
+		<h3 class="text-secondary pb-2 text-left text-2xl">{header}</h3>
+	{/if}
 	<div>
-		{#each texts as text}
-			<article class="rounded-box bg-base-200 mb-4 pb-1">
-				<h4 class="pb-0.5 text-2xl">
-					{@html text.heading}
-					{@html text.display_date.replaceAll(' ', '&nbsp;')}
+		{#each texts as text (text)}
+			<article class="rounded-box bg-base-200 mb-4 pb-1 pl-2">
+				<h4 class="pb-0.5 pl-1 text-xl">
+					{text.heading}
+					<span class="whitespace-nowrap">{text.display_date}</span>
 				</h4>
-				<p class="pl-1">{@html text.main_text}</p>
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -- Důvěryhodný HTML obsah z lokálních dashboard dat. -->
+				<p class="pl-3">{@html text.main_text}</p>
 			</article>
 			<br />
 		{/each}
 	</div>
-{:else}
-	<div>
-		<h3 class="text-secondary pb-2 text-left text-2xl">{header}</h3>
-		<div>
-			{#each texts as text}
-				<article class="rounded-box bg-base-200 mb-4 pb-1 pl-2">
-					<h4 class="pb-0.5 pl-1 text-xl">
-						{@html text.heading}
-						{@html text.display_date.replaceAll(' ', '&nbsp;')}
-					</h4>
-					<p class="pl-3">{@html text.main_text}</p>
-				</article>
-				<br />
-			{/each}
-		</div>
-	</div>
-{/if}
+</div>
 
 <!-- Konec souboru DashboardText.svelte -->
